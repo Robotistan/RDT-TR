@@ -20,19 +20,19 @@ Here you will find all the relevant information about the project.
    :maxdepth: 1
    :caption: Contents:
 
-   What is PicoBricks? <picobricks>
+   PicoBricks Nedir? <picobricks>
    Bricks <bricks>
-   Connection Methods <unlimitedconnectionmethod>
-   Development Environments <guides/guides>
-   Getting Started <started/started>
-   Projects <projects/projects>
-   Education <education/education>
+   Bağlantı Yöntemleri <unlimitedconnectionmethod>
+   Programlama Ortamları <guides/guides>
+   Başlangıç <started/started>
+   Projeler <projects/projects>
+   Eğitim <education/education>
    Bootloader <boatloader/boatloader>
-   Guide for MicroBlocks <library/mblib>
+   MicroBlocks Kılavuzu <library/mblib>
    Datasheets <datasheet>
-   FAQ <faq/faq>
-   Troubleshooting <troubleshooting/troubleshooting>
-   Copyrights and Licenses <license>
+   SSS <faq/faq>
+   Sorun Giderme <troubleshooting/troubleshooting>
+   Telif Hakları ve Lisanslar <license>
    
    
 
