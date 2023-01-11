@@ -22,7 +22,7 @@ Here you will find all the relevant information about the project.
 
    What is PicoBricks? <picobricks>
    Bricks <bricks>
-   Connection Methods <unlimitedconnectionmethod>
+   Bağlantı Yöntemleri <baglanti-yontemleri>
    Development Environments <guides/guides>
    Getting Started <started/started>
    Projects <projects/projects>
