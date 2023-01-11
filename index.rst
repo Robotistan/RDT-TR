@@ -25,7 +25,7 @@ Here you will find all the relevant information about the project.
    Bağlantı Yöntemleri <unlimitedconnectionmethod>
    Programlama Ortamları <guides/guides>
    Başlangıç <started/started>
-   Projeler <projects/projects>
+   Projeler <projeler/projeler>
    Eğitim <education/education>
    Bootloader <boatloader/boatloader>
    MicroBlocks Kılavuzu <library/mblib>
