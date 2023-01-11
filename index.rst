@@ -22,7 +22,7 @@ Here you will find all the relevant information about the project.
 
    PicoBricks Nedir? <picobricks>
    Bricks <bricks>
-   Bağlantı Yöntemleri <unlimitedconnectionmethod>
+   Bağlantı Yöntemleri <baglanti-yontemleri>
    Programlama Ortamları <guides/guides>
    Başlangıç <started/started>
    Projeler <projeler/projeler>
