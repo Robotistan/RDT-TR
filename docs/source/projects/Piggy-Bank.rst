@@ -1,23 +1,23 @@
 ###########
-Piggy Bank
+Obur Kumbara
 ###########
 
-Introduction
+Giriş
 -------------
-In this project, you will make yourself a very enjoyable and cute piggy bank. You will use the servo motor and ultrasonic distance sensor while making the piggy bank.
+Bu projede, kendimiz için eğlenceli bir kumbara yapacağız. Servo motor ve ultrasonik mesafe sensörüne ihtiyacımız olacak.
 
-Project Details and Algorithm
+Proje Detayları ve Algoritma
 ------------------------------
 
+Ultrasonik sensörler ses dalgalarından etkilenerek elektriksel değişim gösteren sensörlerdir. Bu sensörler kulağımızın algılayamayacağı frekansta ses dalgaları gönderirler ve yansıyan ses dalgalarının geri geliş süresinin hesaplanması ile mesafe bilgisi üretirler. Biz programcılar ise ölçülen mesafeyi ve mesafedeki değişimleri anlamlandırarak projeler geliştiririz. Otomobillerin ön ve arkasında bulunan park sensörleri ultrasonik sensörlerin günlük yaşamda en çok karşımıza çıktığı yerlerdir. Doğada  bu yöntemle yönünü bulan canlıyı biliyor musun? Yarasalar kör oldukları için çıkardıkları seslerin yansımalarından yollarını bulurlar.
+Bir çoğumuz para biriktirmeyi severiz. Azar azar biriktirdiğimiz paraların ihtiyaç halinde işe yaraması çok güzel bir duygudur. Bu projede kendine çok eğlenceli ve sevecen bir kumbara yapacaksın. Kumbarayı yaparken servo motor ve ultrasonik mesafe sensörünü kullanacaksın.
 
-Ultrasonic sensors are sensors that show electrical change by being affected by sound waves. These sensors send sound waves at a frequency that our ears cannot detect and produce distance information by calculating the return time of the reflected sound waves. We, the programmers, develop projects by making sense of the measured distance and the changes in distance. Parking sensors in the front and back of the cars are the places where ultrasonic sensors are most common in daily life. Do you know the creature that finds its way in nature with this method? Because bats are blind, they find their way through the reflections of the sounds they make. Many of us like to save money. It is a very nice feeling that the money we save little by little is useful when needed.
-
-Different types of buttons are used in electronic systems. Locked buttons, push buttons, switched buttons... There is 1 push button on Picobricks. They work like a switch, they conduct current when pressed and do not conduct current when released. In the project, we will understand the pressing status by checking whether the button conducts current or not. If it is pressed, it will light the LED, if it is not pressed, we will turn off the LED.
-
-HC-SR04 ultrasonic distance sensor and SG90 servo motor will be used in this project. When the user leaves money in the hopper of the piggy bank, the distance sensor will detect the proximity and send it to the Picobricks. According to this information, Picobricks will operate a servo motor and raise the arm, throw the money into the piggy bank and the arm will go down again.
+Bu projede HC-SR04 ultrasonic mesafe sensörü ve SG90 servo motor kullanılacaktır. Kumbaranın haznesine kullanıcı parak bıraktığında mesafe sensörü yakınlığı algılayacak ve Picobrickse gönderecektir. Picobricks de bu bilgiye göre servo motor çalıştırarak kolu yukarı kaldıracak, parayı kumbaranın içine atacak ve kol tekrar aşağı inecektir. 
 
 
-Wiring Diagram
+
+
+Bağlantı Diyagramı
 --------------
 
 .. figure:: ../_static/piggy-bank.png      
@@ -27,9 +27,10 @@ Wiring Diagram
     
 
 
-You can program and run Picobricks modules without any wiring. If you are going to use the modules by separating them from the board, then you should make the module connections with the Grove cables provided.
+Picobricks modüllerini herhangi bir kablo bağlantısı olmadan programlayabilir ve çalıştırabilirsiniz. Modülleri karttan ayırarak kullanacaksanız modül bağlantılarını verilen konektör kablolar ile yapmalısınız.
 
-MicroPython Code of the Project
+
+Projenin MicroPython Kodu
 --------------------------------
 .. code-block::
 
@@ -69,9 +70,9 @@ MicroPython Code of the Project
 
 
 .. tip::
-  If you rename your code file to main.py, your code will run after every boot.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptınızda çalışacaktır.
    
-Arduino C Code of the Project
+Projenin Arduino C Kodu
 -------------------------------
 
 
@@ -111,7 +112,7 @@ Arduino C Code of the Project
         }
     }
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +-------------+
 ||piggy-bank1||     
@@ -121,8 +122,9 @@ Coding the Project with MicroBlocks
 
 
 
-.. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+Not
+-----  
+  MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks RUN sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
