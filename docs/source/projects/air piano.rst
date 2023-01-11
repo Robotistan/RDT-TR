@@ -2,22 +2,23 @@
 Air Piano
 ###########
 
-Introduction
+Giriş 
 -------------
-In this project we will make a simple piano that can play 8 notes with PicoBricks.
+Bu projede PicoBricks ile 8 nota çalabilen basit bir piyano yapacağız. Bu piyanonun hoparlörü buzzer olacak. Piyanonun tuşlarının görevini ise ultrasonik sensör üstlenecek.
 
-Project Details and Algorithm
+
+Proje Detayları ve Algoritması
 ------------------------------
 
-With the development of electronic technology, musical instruments that are difficult to produce, expensive and producing high-quality sound have been digitized. Pianos are one of these instruments. Each key of digital pianos produces electrical signals at a different frequency. Thus, it can play 88 different notes from its speakers. Factors such as the delay time of the keys of digital instruments, the quality of the speaker, the resolution of the sound have appeared as the factors affecting the quality. In electric guitars, vibrations in strings are digitized instead of keys. On the other hand, In wind instruments, the notes played can be converted into electrical signals and recorded thanks to the high-resolution microphones plugged into the sound output. This development in electronic technology has facilitated access to high-cost musical instruments, music education has gained a wider variety and spread to a wider audience.
+Elektronik teknolojisinin gelişimi ile üretimi zor, pahalı, yüksek kaliteli ses üreten müzik aletleri dijitalleşmiştir. Piyanolar bu enstrümanların başında gelmektedir. Dijital piyanoların her bir tuşu farklı frekansta elektrik sinyalleri üretir. Böylelikle hoparlörlerinden 88 farklı notayı çalabilmektedir. Dijital enstrümanların tuşlarının gecikme süresi, hoparlörün kalitesi, sesin çözünürlüğü gibi faktörler kaliteyi etkileyen faktörler olarak ortaya çıkmıştır. Elektro gitarlarda tuşlar yerine tellerdeki titreşimler dijitalleştirilir. Üflemeli enstrümanlarda ise ses çıkışına takılan yüksek çözünürlüklü mikrofonlar sayesinde çalınan notalar elektrik sinyallerine dönüştürülüp kayıt edilebilmektedir. Elektronik teknolojisindeki bu gelişim yüksek maliyetli müzik aletlerine ulaşım kolaylaştırmış, müzik eğitimi daha geniş çeşitliliğe kavuşmuş ve daha geniş kitleye yayılmıştır.
 
 
-The speaker of this piano will be the buzzer. The ultrasonic sensor will act as the keys of the piano. In this project, we will make a piano application using the 
-``HC-SR04 Ultrasonic distance sensor`` and the ``buzzer module`` on PicoBricks. We will make the buzzer play different notes according to the values coming from the distance sensor, and we will create melodies by moving our hand closer to the sensor and away from it. In addition, we will instantly print the distance played note information on the OLED screen.
+Bu projede ``HC-SR04 Ultrasonik mesafe sensörü`` ve PicoBricks üzerindeki ``buzzer modülünü`` kullanarak piyano uygulaması yapacağız. Mesafe sensöründen gelen değerlere göre buzzer ın farklı  notalar çalmasını sağlayacak ve sensöre elimizi yaklaştırıp uzaklaştırarak melodiler oluşturacağız. Ayrıca OLED ekrana anlık olarak mesafe çalınan nota bilgilerini yazdıracağız. 
 
 
 
-Wiring Diagram
+
+Bağlantı Diyagramı
 --------------
 
 .. figure:: ../_static/air-piano.png      
@@ -27,9 +28,10 @@ Wiring Diagram
     
 
 
-You can program and run Picobricks modules without any wiring. If you are going to use the modules by separating them from the board, then you should make the module connections with the Grove cables provided.
+Picobricks modüllerini herhangi bir kablo bağlantısı olmadan programlayabilir ve çalıştırabilirsiniz. Modülleri karttan ayırarak kullanacaksanız modül bağlantılarını verilen konektör kablolar ile yapmalısınız.
 
-MicroPython Code of the Project
+
+Projenin MicroPython Kodu
 --------------------------------
 .. code-block::
 
@@ -127,9 +129,9 @@ MicroPython Code of the Project
     #write the specified texts to the determined x and ye coordinates on the OLED screen
 
 .. tip::
-  If you rename your code file to main.py, your code will run after every boot.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptınızda çalışacaktır.
    
-Arduino C Code of the Project
+Projenin Arduino C Kodu
 -------------------------------
 
 
@@ -223,7 +225,7 @@ Arduino C Code of the Project
         }
     
     
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +------------+
 ||air-piano1||     
@@ -233,8 +235,9 @@ Coding the Project with MicroBlocks
 
 
 
-.. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+Not
+-----
+MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks RUN sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
