@@ -1,21 +1,20 @@
 ###########
-Action-Reaction
+Etki-Tepki
 ###########
 
-Introduction
+Giriş
 -------------
-In the project, we will understand the pressing status by checking whether the button conducts current or not. If it is pressed, it will light the LED, if it is not pressed, we will turn off the LED.
+Bu projede Picobricks’in buton-LED modülünü kodlayarak projelerinde kullanıcıdan bir komutun nasıl alınacağını ve bu komuta nasıl tepki verileceğini öğreneceksin.
 
-   
-As Newton explained in his laws of motion, a reaction occurs against every action. Electronic systems receive commands from users and perform their tasks. Usually a keypad, touch screen or a button is used for this job. Electronic devices respond verbally, in writing or visually to inform the user that their task is over and what is going on during the task. In addition to informing the user of these reactions, it can help to understand where the fault may be in a possible malfunction. 
-In this project, you will learn how to receive and react to a command from the user in your projects by coding the button-LED module of Picobricks.
 
-Project Details and Algorithm
+Newton hareket yasalarında açıkladığı gibi her etkiye karşı bir tepki oluşur. Elektronik sistemler kullanıcılardan komutlar alırlar ve görevlerini yerine getirirler. Genellikle bu iş için  bir tuş takımı, dokunmatik ekran veya bir  buton kullanılır. Elektronik cihazlar görevlerinin sona erdiğini ve görev süresince olan bitenden kullanıcıyı haberdar etmek için sesli, yazılı veya görsel olarak tepki verirler. Bu tepkilerin kullanıcıyı haberdar etmenin yanı sıra olası arızada hatanın nerede olabileceğinin anlaşılmasında yardımcı olabilmektedir.
+
+Proje Detayları ve Algoritması
 ------------------------------
 
-There is 1 push button on Picobricks. They work like a ``switch``, they conduct current when pressed and do not conduct current when released.
+Picobricks'te 1 buton var ve ``anahtar`` gibi çalışır, basıldığında akım iletir ve serbest bırakıldığında akım vermez.
 
-Wiring Diagram
+Bağlantı Diyagramı
 --------------
 
 .. figure:: ../_static/action-reaction.png      
@@ -29,9 +28,10 @@ Wiring Diagram
     :figclass: align-center
 
 
-You can program and run Picobricks modules without any wiring. If you are going to use the modules by separating them from the board, then you should make the module connections with the Grove cables provided.
+Picobricks modüllerini herhangi bir kablo bağlantısı olmadan programlayabilir ve çalıştırabilirsiniz. Modülleri karttan ayırarak kullanacaksanız modül bağlantılarını verilen konektör kablolar ile yapmalısınız.
 
-MicroPython Code of the Project
+
+Projenin MicroPython Kodu
 --------------------------------
 .. code-block::
 
@@ -47,9 +47,9 @@ MicroPython Code of the Project
 
 
 .. tip::
-  If you rename your code file to main.py, your code will run after every boot.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptınızda çalışacaktır.
    
-Arduino C Code of the Project
+Projenin Arduino C Kodu
 -------------------------------
 
 
@@ -75,7 +75,7 @@ Arduino C Code of the Project
       }
 
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +------------------+
 ||action-reaction3||     
@@ -86,8 +86,9 @@ Coding the Project with MicroBlocks
 
     
 
-.. note::
-To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+Not
+-----
+MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks RUN sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
