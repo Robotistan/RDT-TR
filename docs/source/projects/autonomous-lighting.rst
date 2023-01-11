@@ -1,18 +1,19 @@
 ###########
-Autonomous Lighting
+Otonom Aydınlatma
 ###########
 
-Introduction
+Giriş 
 -------------
-In this project, with PicoBricks, we will enable the LED to turn on when the amount of light decreases in order to understand the working systems of the systems where the lighting is turned on automatically when it gets dark.
+Bu projede PicoBricks ile hava karardığında aydınlatmanın otomatik yandığı sistemlerin çalışma sistemlerini anlamak için ışık miktarı düştüğünde LED’in yanmasını sağlayacağız.
+
    
 
-Project Details and Algorithm
+Proje Detayları ve Algoritması
 ------------------------------
 
-It is called the state of being autonomous when electronic systems make a decision based on the data they collect and perform the given task automatically. The components that enable electronic systems to collect data from their environment are called sensors. Many data such as the level of light in the environment, how many degrees the air temperature is, how many lt/min water flow rate, how loud the sound is, are collected by the sensors and transmitted to PicoBricks as electrical signals, that is data. There are many sensors in Picobricks. Knowing how to get data from sensors and how to interpret and use that data will improve project ideas like reading a book improves vocabulary.
+Elektronik sistemlerin verilen görevi, topladığı veriler doğrultusunda karar vererek otomatik olarak yapmasına otonom olma durumu denir. Elektronik sistemlerin çevresinden veri toplamasını sağlayan bileşenlerine sensör (algılayıcı) denir. Ortamdaki ışık seviyesinin hangi düzeyde olduğu, hava sıcaklığının kaç derece olduğu, su akış hızının kaç lt/dk olduğu, ses şiddetinin ne kadar olduğu gibi birçok veri sensörler tarafından toplanarak elektrik sinyalleri olarak yani veri olarak PicoBricks’e iletilir. Picobricks’te birçok sensör yer almaktadır. Sensörlerden verinin nasıl alındığını ve bu verilerin nasıl yorumlanılıp kullanılacağını bilmek, kitap okumanın kelime dağarcığını geliştirmesi gibi proje fikirlerini geliştirecektir.
 
-Wiring Diagram
+Bağlantı Diyagramı
 --------------
 
 .. figure:: ../_static/autonomous-lighting.png      
@@ -26,9 +27,9 @@ Wiring Diagram
     :figclass: align-center
 
 
-You can program and run Picobricks modules without any wiring. If you are going to use the modules by separating them from the board, then you should make the module connections with the Grove cables provided.
+Picobricks modüllerini herhangi bir kablo bağlantısı olmadan programlayabilir ve çalıştırabilirsiniz. Modülleri karttan ayırarak kullanacaksanız modül bağlantılarını verilen konektör kablolar ile yapmalısınız.
 
-MicroPython Code of the Project
+Projenin MicroPython Kodu
 --------------------------------
 .. code-block::
 
@@ -65,9 +66,9 @@ MicroPython Code of the Project
 
 
 .. tip::
-  If you rename your code file to main.py, your code will run after every boot.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptınızda çalışacaktır.
    
-Arduino C Code of the Project
+Projenin Arduino C Kodu
 -------------------------------
 
 
@@ -108,7 +109,7 @@ Arduino C Code of the Project
    }
 
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 
 +----------------------+
@@ -119,8 +120,9 @@ Coding the Project with MicroBlocks
 
 
 
-.. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+Not
+-----
+MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks RUN sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
