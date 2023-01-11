@@ -45,7 +45,7 @@ You can realize many projects with 11 different components of Pico Bricks. Apart
      Voice Controlled Robot Car <Voice Controlled Car>
      Two Axis Robot Arm <Two Axis Robot Arm>
      Smart House <smart-house>
-     Piggy Bank <Piggy-Bank>
+     Obur Kumbara <Obur-Kumbara>
      NFC Smart Door <NFC smart door>
      Automatic Trash Bin <automatic trash bin>
      Digital Ruler <digital ruler>
