@@ -25,7 +25,7 @@ Welcome to
    Bağlantı Yöntemleri <baglanti-yontemleri>
    Development Environments <guides/guides>
    Getting Started <started/started>
-   Projeler <projeler>
+   Projeler <projeler/projects>
    Education <education/education>
    Bootloader <boatloader/boatloader>
    Guide for MicroBlocks <library/mblib>
