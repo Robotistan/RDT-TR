@@ -1,11 +1,11 @@
 #############################################
-Welcome to PicoBricks Documentation
+Welcome to 
 #############################################
 
 .. image:: /../_static/main.gif
 
 
-Here you will find all the relevant information about the project.
+<sifşkjjşnagjlgnşlk<fvj<itgıa,üpepıgkğpagkaigkilşgksigksl
 
 
 .. note::
