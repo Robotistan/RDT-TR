@@ -1,23 +1,20 @@
 ###########
-NFC Smart Door
+NFC Akıllı Kapı
 ###########
 
-Introduction
+Giriş
 -------------
-In this project, we will prepare a card entry system on a model house.
+Bu projede, kartlı giriş sistemi olan bir model ev yapacağız.
 
-Project Details and Algorithm
+Proje Detayları ve Algoritması
 ------------------------------
 
-``Security systems`` include technologies that can control authorizations at building and room entrances. Card entry systems, in which only authorized personnel can enter the operating rooms of hospitals, are one of the first examples that come to mind. In addition, the entrance doors of areas that should not be entered by persons or personnel of all levels in military security centers are equipped with card and password entry technologies. These electronic systems used in building and room entrances not only prevent the entrance of unauthorized persons, but also ensure that entry and exit information is kept under record. Password entry, card entry, fingerprint scanning, face scanning, retina scanning and voice recognition technologies are the authentication methods used in electronic entry systems. Systems such as RFID and NFC are the basic forms of contactless payment technologies today. Although the contactless payment technology in credit cards is technically different, the working logic is the same. The maximum distance between the reader and the card is one of the features that distinguishes the technologies used from each other. When leaving the shopping stores, especially in clothing stores, NFC tags on the products will beep if they are detectioned to the readers at the entrance. A kind of ``RFID technology`` is used in those systems.
+``Güvenlik sistemlerinin`` kapsamına bina ve oda girişlerinde yetkileri kontrol edebilen  teknolojiler de girmektedir. Hastanelerin ameliyathanelerine sadece görevli personellerin girebildiği kartlı giriş sistemleri ilk akla gelen örneklerden biridir. Ayrıca askeri güvenlik merkezlerinde her düzeyden kişi veya personelin girmemesi gereken alanların giriş kapıları kartlı ve şifreli giriş teknolojileriyle donatılmaktadır. Bina ve oda girişlerinde kullanılan bu elektronik sistemler yetkisiz kişilerin girişini engellediği gibi giriş çıkış bilgilerinin kayıt altında tutulmasını da sağlamaktadır. Şifreli giriş, kartlı giriş, parmak izi tarama, yüz tarama, retina taraması ve ses tanıma teknolojileri elektronik giriş sistemlerinde kullanılan doğrulama yöntemleridir.
+RFID ve NFC gibi sistemler bugün temassız ödeme teknolojilerinin temel halleridir. Kredi kartlarındaki temassız ödeme teknolojisi teknik olarak farklı olsa da çalışma mantığı aynıdır. Okuyucu ve kart arasında yer alacak maksimum mesafe, kullanılan teknolojileri birbirinden ayıran özelliklerin başında gelir. Alışveriş mağazalarından çıkarken özellikle giyim mağazalarında ürünlerin üzerindeki NFC etiketler girişteki okuyuculara takılırsa öterler. O sistemlerde de bir tür ``RFID teknolojisi`` kullanılmaktadır.
+Bu projede maket ev üzerinde kartlı giriş sistemi hazırlayacağız. Kullanacağımız elektronik bileşenler MFRC522 RFID okuyucu ve 13.56 Mhz’lik kartlardır.
 
 
-The electronic components we will use are MFRC522 RFID reader and 13.56 Mhz cards. Place the MFRC522 reader near the door of the model so that it is visible from the outside. Place the RGB LED and the buzzer on the wall where the door is visible from the outside. Picoboard can remain in the model. The entrance door of the model should be connected to the door of the servo, while the servo is set to 0 degrees, the door should be closed. You should determine the serial number of the RFID / NFC tag that will open the door, create the homeowner variable and assign the serial number to this variable.
-
-Set the door to the closed position when Picobricks starts. Make the buzzer beep when a card is shown to the RFID reader. If the serial number of the card being read matches the serial number in the homeowner variable, turn the RGB LED on green. Then let the door open. Make sure the door is closed 3 seconds after the door is opened. If the serial number of the card being read does not match the homeowner variable, turn the RGB LED on red. A different tone sounds from the buzzer.
-
-
-Wiring Diagram
+Bağlantı Diyagramı
 --------------
 
 .. figure:: ../_static/nfc-smart-door.png      
@@ -27,9 +24,9 @@ Wiring Diagram
     
 
 
-You can program and run Picobricks modules without any wiring. If you are going to use the modules by separating them from the board, then you should make the module connections with the Grove cables provided.
+Picobricks modüllerini herhangi bir kablo bağlantısı olmadan programlayabilir ve çalıştırabilirsiniz. Modülleri karttan ayırarak kullanacaksanız modül bağlantılarını verilen konektör kablolar ile yapmalısınız.
 
-MicroPython Code of the Project
+Projenin MicroPython Kodu
 --------------------------------
 .. code-block::
 
@@ -88,7 +85,7 @@ MicroPython Code of the Project
                 neo.show()
                 servo.duty_u16(1350)
                 
-MicroPyhton Card ID Code
+MicroPyhton ID Kart Kodu
 -------------
 .. code-block::
 
@@ -116,9 +113,9 @@ MicroPyhton Card ID Code
             #read the card and give the serial number of the card
 
 .. tip::
-  If you rename your code file to main.py, your code will run after every boot.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptınızda çalışacaktır.
    
-Arduino C Code of the Project
+Projenin Arduino C Kodu
 -------------------------------
 
 
@@ -222,7 +219,7 @@ Arduino C Code of the Project
     Serial.println("");
         }
         
-Arduino Card ID Code
+Arduino Kart ID Kodu
 ---------------------
 .. code-block::
 
@@ -268,7 +265,7 @@ Arduino Card ID Code
         }
 
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +-----------------+
 ||nfc-smart-door1||     
@@ -278,8 +275,9 @@ Coding the Project with MicroBlocks
 
 
 
-.. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+Not
+-----
+  MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks RUN sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
