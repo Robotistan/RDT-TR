@@ -1,5 +1,5 @@
 ###########
-Counter Projesi
+Counter Project
 ###########
 
 Projenin MicroBlocks Kodu
