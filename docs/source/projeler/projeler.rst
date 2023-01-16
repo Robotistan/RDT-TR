@@ -1,8 +1,9 @@
 #########
-Projects
+Projeler
 #########
 
-You can realize many projects with 11 different components of Pico Bricks. Apart from this, you can make projects beyond your dreams by adding unlimited components with 8 different connection types.
+PicoBricks'in 11 farklı komponenti ile birçok projeyi hayata geçirebilirsiniz. Bunun dışında 8 farklı bağlantı tipi ile sınırsız sayıda komponent ekleyerek hayallerinizin ötesinde projelere imza atabilirsiniz.
+
 
 | **You can make fun projects with PicoBricks.**
 
