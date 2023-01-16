@@ -2,7 +2,7 @@
 Propeller Button
 ###########
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +------------------+
 ||propeller-button||     
@@ -11,4 +11,6 @@ Coding the Project with MicroBlocks
 .. |propeller-button| image:: _static/propeller-button.png
 
 .. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+  MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
+
+
