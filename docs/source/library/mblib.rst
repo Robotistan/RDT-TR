@@ -85,7 +85,7 @@ Blokların nasıl kullanılacağına dair örnek kodlar verilmiştir. Bunları d
 +---------------------+
 
 
-Working with Library Blocks
+Kütüphane Blokları ile Çalışmak
 -----------------------------
 
 The library consists of a set of simple services, that together allow the user to have complete control of the PicoBricks Board and the modules on it.
