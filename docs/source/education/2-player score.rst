@@ -2,7 +2,7 @@
 2 Player Score
 ###########
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +----------------+
 ||2-player-score||     
@@ -11,4 +11,4 @@ Coding the Project with MicroBlocks
 .. |2-player-score| image:: _static/2-player-score.png
 
 .. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+  MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks RUN sekmesine sürükleyip bırakmanız yeterlidir.
