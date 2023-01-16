@@ -5,41 +5,44 @@ Bootloader
 BOOTSEL
 --------
 
-Pico’s BOOTSEL mode lives in read-only memory inside the RP2040 chip, and can’t be overwritten accidentally. No matter what, if you hold down the BOOTSEL button when you plug in your Pico, it will appear as a drive onto which you can drag a new UF2 file. There is no way to brick the board through software. However, there are some circumstances where you might want to make sure your Flash memory is empty. You can do this by dragging and dropping a special UF2 binary onto your Pico when it is in mass storage mode.
+There is no way to brick the board through software. Pico'nun BOOTSEL modu, RP2040 içindeki salt okunur bellekte bulunur ve yanlışlıkla üzerine yazılamaz. Ne olursa olsun, Pico'nuzu prize taktığınızda BOOTSEL düğmesini basılı tutarsanız, üzerine yeni bir UF2 dosyası sürükleyebileceğiniz bir sürücü olarak görünecektir. Tahtayı yazılım aracılığıyla tuğlalamanın bir yolu yoktur. Kartı kodlamanın başka bir yolu yoktur. Ancak, Flash belleğinizin boş olduğundan emin olmak isteyebileceğiniz bazı durumlar vardır. Bunu, toplu depolama modundayken özel bir UF2 ikili dosyasını Pico'nuza sürükleyip bırakarak yapabilirsiniz.
 
 
-* Download the MicroPython ``UF2 file`` from the Raspberry Pi website
-* Hold down the ``BOOTSEL`` button on your Pico and plug it into your computer's USB port.
-* Open Explorer, and open the ``RPI-RP2 directory`` like you would any other hard drive
-* Drag and drop the ``UF2 file`` into the ``RPI-RP2 directory``
+* Raspberry Pi web sitesinden MicroPython ``UF2 dosyasını`` indirin 
+* Pico'nuzdaki ``BOOTSEL`` düğmesini basılı tutun ve bilgisayarınızın USB portuna takın. 
+* Explorer'ı açın ve diğer herhangi bir sabit sürücüde yaptığınız gibi ``RPI-RP2 dizinini`` açın 
+* ``UF2 dosyasını`` sürükleyip ``RPI-RP2 dizinine`` bırakın
 
 
-Reset Flash Memory
--------------------
+Flash Belleği Sıfırlama
+------------------------
 
-The Raspberry Pi Pico is a fantastic piece of technology, but it does have one flaw: ``there is no reset button``. How important is this omission? Sometimes our code can go away, or we need to flash new firmware to our Pico.
 
-When this happens we have to unplug the Pico and plug it back in again in order to reset it. If we pull out the micro USB lead, a mechanical connection which is rated for a finite number of insertions, too many times, we could wear it out. If we have the Pico connected to a powered USB hub with on / off buttons, we can press the button on that, but what if we don’t.
+
+Raspberry Pi Pico harika bir teknoloji ürünü ama bir kusuru var: ``sıfırlama düğmesi yok``. Bu ihmal ne kadar önemli? Bazen kodumuz kaybolabilir veya Pico'muza yeni aygıt yazılımı yüklememiz gerekir.
+
+Bu olduğunda, sıfırlamak için Pico'nun fişini çekip tekrar takmamız gerekir. Sınırlı sayıda yerleştirme için derecelendirilen mekanik bir bağlantı olan mikro USB kablosunu çok fazla çıkarırsak, onu yıpratabiliriz. Açma/kapama butonlarıyla elektrikli bir USB hub'ına bağlı Pico'muz varsa, bunun üzerindeki düğmeye basabiliriz, ama ya basmazsak.
 
 .. tip::
-  With very little equipment, and zero code we can build a simple button to reset our Pico ready for the next project.
+  Çok az ekipman ve sıfır kodla, Pico'muzu bir sonraki projeye hazır hale getirmek için basit bir buton oluşturabiliriz.
   
-Reset Button Project
----------------------
+Sıfırlama Butonu Projesi
+-------------------------
 
 +---------------+---------------+
 | What You Need For This        | 
 +===============+===============+
-| A Raspberry Pi Pico           | 
+|   Raspberry Pi Pico           | 
 +---------------+---------------+
-| 2 x Male to Male Jumper Wires | 
+| 2 x Erkek-Erkek Jumper Kablo  | 
 +---------------+---------------+
 | Breadboard                    | 
 +---------------+---------------+
-| Pushbutton                    | 
+| Buton                         | 
 +---------------+---------------+
 
-1) Place the Raspberry Pi Pico into the breadboard so that the micro USB port hangs over ``the end of the breadboard.``
+1) Raspberry Pi Pico'yu mikro USB bağlantı noktası ``breadboardun ucunda`` asılı kalacak şekilde devre tahtasına yerleştirin.
+
 
 .. figure:: ../_static/pico1.png
     :align: center
@@ -47,7 +50,7 @@ Reset Button Project
     :figclass: align-center
 
     
-2) Insert a ``push button`` as you see in the image
+2) Görselde gördüğünüz gibi bir ``buton`` yerleştirin.
 
 .. figure:: ../_static/pico2.png
     :align: center
@@ -55,7 +58,8 @@ Reset Button Project
     :figclass: align-center
 
     
-3) Connect one of the jumper wires to the GND pin and the right leg of the button, and connect the other to the RUN pin and the left leg of the button.
+3) Jumper kablolardan birini GND pinine ve butonun sağ ayağına, diğerini RUN pinine ve butonun sol ayağına bağlayın.
+
 
 .. figure:: ../_static/pico3.png
     :align: center
@@ -64,9 +68,9 @@ Reset Button Project
 
     
 .. note::
-  Our reset button is ready to use.
+  Sıfırlama butonumuz kullanıma hazır.
   
 .. tip::
-  You can also check `Raspberry Pi Website <https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#resetting-flash-memory>`_ for more information.
+  Daha fazla bilgi için  `Raspberry Pi Websitesini <https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#resetting-flash-memory>`_ ziyaret edebilirsiniz.
    
 
