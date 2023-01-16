@@ -2,21 +2,24 @@
 Buzz Wire Game
 ###########
 
-Introduction
+Giriş
 -------------
-In this project, we will electronically prepare the attention and concentration developer Buzz Wire Game with the help of a conductor wire using the buzzer and LED module with Picobricks. While preparing this project, you will have learned an input technique that is not a button but will be used like a ``button``.
+Bu projede Picobricks ile buzzer ve LED modül kullanarak dikkat ve konsantrasyon geliştirici Buzz Wire Game'i iletken bir tel yardımıyla elektronik olarak hazırlayacağız. Bu projeyi hazırlarken bir buton değil, ``button`` gibi kullanılacak bir giriş tekniği öğrenmiş olacaksınız.
 
-Project Details and Algorithm
+Proje Detayları ve Algoritması
 ------------------------------
 
-Projects don't always have to be about solving problems and making things easier. You can also prepare projects to have fun and develop yourself. Attention and concentration are features that many people want to develop. The applications that we can do with this are quite interesting. How about making Buzz Wire Game with Picobricks? You must have heard the expression that computers work with 0s and 1s. 0 represents the absence of electricity and 1 represents its presence. 0 and 1’s come together with a certain number and sequence of combinations to form meaningful data. In electronic systems, 0s and 1s can be used to directly control a situation. Is the door closed or not? Is the light on or off? Is the irrigation system on or not? In order to obtain such information, a status check is carried out. In this project, we will electronically prepare the attention and concentration developer Buzz Wire Game with the help of a conductor wire using the buzzer and LED module with Picobricks. While preparing this project, you will have learned an input technique that is not a button but will be used like a button.
-
-
-To prepare the project, you need 2 male-male jumper cables and a 15 cm long conductor bendable wire. When the player is ready, it will be asked to press the button to start the game. If the jumper cable touches the conductor wire in the player’s hand when the button is pressed, Picobricks will detect this and give an audible and written warning. The time from the start of the game to the end will also be displayed on the OLED screen. We reset the timer after the user presses the button. Then we will give a voltage of 3.3V to the conductor wire connected to the GPIO1 pin of Picobricks. One end of the cable held by the player will be connected to the GND pin on the Picobricks. If the player touches the jumper cable in his hand to the conductive wire, the GPIO1 pin will drop to the ``Passive/Off/0 position``. Then, it will announce that the game is over, and there will be light, written and audio feedback, then the elapsed time will be shown on the OLED screen in milliseconds. After 5 seconds, the player will be prompted to press the button to restart.
+Projeler her zaman sorunları çözmek ve işleri kolaylaştırmakla ilgili olmak zorunda değildir. Siz de eğlenmek ve kendinizi geliştirmek için projeler hazırlayabilirsiniz. Dikkat ve konsantrasyon, birçok insanın geliştirmek istediği özelliklerdir. Bununla yapabileceğimiz uygulamalar oldukça ilgi çekici. Picobricks ile Buzz Wire Oyunu yapmaya ne dersiniz? Bilgisayarların 0'lar ve 1'lerle çalıştığı tabirini duymuşsunuzdur. 0 elektriğin yokluğunu, 1 ise varlığını temsil eder. 0 ve 1'ler belirli sayıda ve dizilişle bir araya gelerek anlamlı veriler oluşturur. Elektronik sistemlerde, bir durumu doğrudan kontrol etmek için 0'lar ve 1'ler kullanılabilir. Kapı kapalı mı değil mi? Işık açık mı kapalı mı? Sulama sistemi açık mı, değil mi? Bu tür bilgileri elde etmek için bir durum kontrolü yapılır. Bu projemizde Picobricks ile buzzer ve LED modül kullanarak dikkat ve konsantrasyon geliştirici Buzz Wire Game'i iletken bir tel yardımıyla elektronik olarak hazırlayacağız. Bu projeyi hazırlarken buton olmayan, buton gibi kullanılacak bir giriş tekniği öğrenmiş olacaksınız.
 
 
 
-Wiring Diagram
+Projeyi hazırlamak için 2 adet erkek-erkek jumper kablo ve 15 cm uzunluğunda iletken bükülebilir tele ihtiyacın var. Oyuncu hazır olduğunda oyunu başlatmak için butona basması istenecek. Butona basıldığında oyuncunun elinde jumper kablo iletken tele değerse Picobricks bunu algılayıp sesli ve yazılı uyarı verecek. Oyun başladıktan bitene kadar geçen sürede OLED ekranda gösterilecek.
+Kullanıcı butona bastıktan sonra timer’ı resetliyoruz. Daha sonra Picobricks’in GPIO1 nolu pinine bağlı iletken tel’e 3.3V’luk gerilim vereceğiz. Oyuncunun elinde tuttuğu kablonun bir ucu Picobricks üzerinde GND pinine bağlı olacak. Eğer oyuncu elindeki jumper kabloyu iletken tele dokundurursa GPIO1 nolu pin Pasif/Kapalı/0 konumuna düşecektir. Daha sonra Oyunun bittiğini bildirir ışıklı, yazılı ve sesli geri bildirimde bulunulacak ardından OLED ekran üzerinde geçen süre milisaniye cinsinden gösterilecek. 5 saniye sonunda oyuncunun yeniden başlamak için butona basması istenecek.
+
+
+
+
+Bağlantı Diyagramı
 --------------
 
 .. figure:: ../_static/buzz-wire-game.png      
@@ -27,9 +30,9 @@ Wiring Diagram
 
 
 
-You can program and run Picobricks modules without any wiring. If you are going to use the modules by separating them from the board, then you should make the module connections with the Grove cables provided.
+Picobricks modüllerini herhangi bir kablo bağlantısı olmadan programlayabilir ve çalıştırabilirsiniz. Modülleri karttan ayırarak kullanacaksanız modül bağlantılarını verilen konektör kablolar ile yapmalısınız.
 
-MicroPython Code of the Project
+Projenin MicroPthon Kodu
 --------------------------------
 .. code-block::
 
@@ -88,9 +91,9 @@ MicroPython Code of the Project
 
 
 .. tip::
-  If you rename your code file to main.py, your code will run after every boot.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptınızda çalışacaktır.
    
-Arduino C Code of the Project
+Projenin Arduino C Kodu
 -------------------------------
 
 
@@ -172,7 +175,7 @@ Arduino C Code of the Project
 
         }
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 
 +-----------------+
@@ -182,8 +185,9 @@ Coding the Project with MicroBlocks
 .. |buzz-wire-game1| image:: _static/buzz-wire-game1.png
 
 
-.. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+Not
+-----  
+MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks RUN sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
