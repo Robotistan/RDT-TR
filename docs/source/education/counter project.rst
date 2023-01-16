@@ -1,8 +1,8 @@
 ###########
-Counter Project
+Counter Projesi
 ###########
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +-----------------+
 ||counter-project||     
@@ -11,4 +11,6 @@ Coding the Project with MicroBlocks
 .. |counter-project| image:: _static/counter-project.png
 
 .. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+  MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks RUN sekmesine sürükleyip bırakmanız yeterlidir.
+
+
