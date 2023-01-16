@@ -5,18 +5,18 @@ Projeler
 PicoBricks'in 11 farklı komponenti ile birçok projeyi hayata geçirebilirsiniz. Bunun dışında 8 farklı bağlantı tipi ile sınırsız sayıda komponent ekleyerek hayallerinizin ötesinde projelere imza atabilirsiniz.
 
 
-| **You can make fun projects with PicoBricks.**
+| **PicoBricks ile eğleceli projeler yapabilirsiniz.**
 
 .. image:: /../_static/alarmclock.gif
 
 .. image:: /../_static/ferriswheel.gif
 
 
-| **You can set up home automation systems with PicoBricks.**
+| **Ev otomasyon sistemlerini PicoBricks ile kurabilirsiniz..**
 
 .. image:: /../_static/toaster.gif
 
-| **Here are some projects you can do with detachable PicoBricks.**
+| **İşte PicoBricks'i ayırdıktan sonra yapabileceğiniz bazı projeler.**
 
 .. image:: /../_static/rgb.gif
 
