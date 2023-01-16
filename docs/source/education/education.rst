@@ -1,9 +1,10 @@
 
 #########
-Picobricks Education
+Picobricks Eğitim
 #########
 
-You can easily access the projects you can find in Picobricks Education Content here. With Picobricks, you can start your coding learning adventure quickly with the projects here and advance yourself.
+PicoBricks eğitim içeriğinde bulabileceğiniz projelere buradan kolayca ulaşabilirsiniz. Picobricks ile kodlama öğrenme maceranıza buradaki projelerle hızlı bir şekilde başlayabilir ve kendinizi geliştirebilirsiniz.
+
 
 .. image:: /../_static/education.gif
 
