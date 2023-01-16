@@ -1,4 +1,4 @@
-Connection Methods
+Bağlantı Yöntemleri
 ====================
 
 
@@ -6,7 +6,8 @@ Connection Methods
 .. image:: /../_static/cable.gif
 
 
-With Picobricks, you can build your circuits without cable clutter. Similarly, you can get rid of code confusion by coding with the Microbloks program. With this feature, we eliminate many problems that we may encounter when starting an ordinary robotic coding education lesson, thanks to the modular structure of the Picobricks. After entering the robotic coding training, we have the opportunity to do more projects by breaking the modules on the Picobricks from the necessary places and connecting the modules to the Raspberry Pi Pico with **Groove Cables.**
+PicoBricks ile devrelerinizi kablo karmaşası olmadan oluşturabilirsiniz. Aynı şekilde MicroBlocks programı ile kodlama yaparak kod karmaşasından kurtulabilirsiniz. Bu özelliği ile sıradan bir robotik kodlama eğitimi dersine başlarken karşılaşabileceğimiz birçok sorunu PicoBricks'in modüler yapısı sayesinde ortadan kaldırmış oluyoruz. Robotik kodlama eğitimine girdikten sonra PicoBricks üzerindeki modülleri gerekli yerlerden koparıp Raspberry Pi Pico'ya **Groove Kablolar** ile bağlayarak daha fazla proje yapma imkanı buluyoruz.
+
 
 
 .. figure:: ../_static/cable1.jpg
@@ -16,7 +17,7 @@ With Picobricks, you can build your circuits without cable clutter. Similarly, y
     
     
     
-No soldering! There are unlimited connections.
+Lehimleme yok! Sınırsız bağlantı yöntemi var.
 --------------------------------------------------------
 
 .. figure:: ../_static/cable2.jpg
