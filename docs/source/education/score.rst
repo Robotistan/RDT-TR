@@ -2,7 +2,7 @@
 Score Game
 ###########
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +-------+
 ||score||     
@@ -11,4 +11,6 @@ Coding the Project with MicroBlocks
 .. |score| image:: _static/score.png
 
 .. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+  MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
+
+
