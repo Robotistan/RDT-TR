@@ -1,7 +1,7 @@
 Sık Sorulan Sorular
 ===========================
 
-PicoBricks'i kırdıktan sonra nasıl çalışacağım?
+PicoBricks'i, kırdıktan sonra nasıl çalıştıracağım?
 --------------------------------------------------
 
 PicoBricks üzerindeki 12 adet modülü kırılma noktalarından ayırıp PicoBricks ana kartı üzerindeki doğru yerlere konektör bir kablo ile bağlayıp kullanabiliriz.
