@@ -1,10 +1,11 @@
 ###########
-MicroBlocks Test Code
+MicroBlocks Test Kodu
 ###########
 
-With this test code, you can test all modules on Picobricks and learn how they work.
+Bu test kodu ile PicoBricks üzerindeki tüm modülleri test edebilir ve nasıl çalıştığını öğrenebilirsiniz.
 
-Coding the Project with MicroBlocks
+
+MicroBlocks Kodu
 ------------------------------------
 +-----------+
 ||test-code||     
@@ -13,4 +14,6 @@ Coding the Project with MicroBlocks
 .. |test-code| image:: _static/test-code.png
 
 .. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+  MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
+
+
