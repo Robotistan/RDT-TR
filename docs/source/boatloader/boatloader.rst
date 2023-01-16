@@ -5,7 +5,7 @@ Bootloader
 BOOTSEL
 --------
 
-Pico'nun BOOTSEL modu, RP2040 içindeki salt okunur bellekte bulunur ve yanlışlıkla üzerine yazılamaz. Ne olursa olsun, Pico'nuzu prize taktığınızda BOOTSEL düğmesini basılı tutarsanız, üzerine yeni bir UF2 dosyası sürükleyebileceğiniz bir sürücü olarak görünecektir. Tahtayı yazılım aracılığıyla tuğlalamanın bir yolu yoktur. Kartı kodlamanın başka bir yolu yoktur. Ancak, Flash belleğinizin boş olduğundan emin olmak isteyebileceğiniz bazı durumlar vardır. Bunu, toplu depolama modundayken özel bir UF2 ikili dosyasını Pico'nuza sürükleyip bırakarak yapabilirsiniz.
+Pico'nun BOOTSEL modu, RP2040 içindeki salt okunur bellekte bulunur ve yanlışlıkla üzerine yazılamaz. Ne olursa olsun, Pico'nuzu prize taktığınızda BOOTSEL düğmesini basılı tutarsanız, üzerine yeni bir UF2 dosyası sürükleyebileceğiniz bir sürücü olarak görünecektir. Kartı programlamanın başka bir yolu yoktur. Ancak, Flash belleğinizin boş olduğundan emin olmak isteyebileceğiniz bazı durumlar vardır. Bunu, toplu depolama modundayken özel bir UF2 ikili dosyasını Pico'nuza sürükleyip bırakarak yapabilirsiniz.
 
 
 * Raspberry Pi web sitesinden MicroPython ``UF2 dosyasını`` indirin 
