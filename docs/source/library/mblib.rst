@@ -1,16 +1,17 @@
-Guide for MicroBlocks
+MicroBlocks Kılavuzu
 ========================================
 
-Summary of Blocks
+Blokların Özeti
 ------------------
 
-For each block, there is a short description entry and a detailed block and component description. You can click on block pictures in the short description table to access the details and sample codes.
+Her blok için kısa bir açıklama girişi ve ayrıntılı bir blok ve komponent açıklaması vardır. Detaylara ve örnek kodlara ulaşmak için kısa açıklama tablosundaki blok resimlerine tıklayabilirsiniz.
 
-Sample codes on how to use the blocks have been provided. To try them out, all you have to do is open a browser session of the MicroBlocks IDE and drag and drop them onto the editor programming area. Then you can just click on them and see the results.
+Blokların nasıl kullanılacağına dair örnek kodlar verilmiştir. Bunları denemek için tek yapmanız gereken MicroBlocks IDE'de bir tarayıcı oturumu açmak ve bunları düzenleyici programlama alanına sürükleyip bırakmaktır. Ardından üzerlerine tıklayıp sonuçları görebilirsiniz.
 
 .. tip::
 
-    To test any of the sample codes below, just drag and drop them onto the MicroBlocks IDE.
+    Aşağıdaki örnek kodlardan herhangi birini test etmek için, bunları MicroBlocks IDE'ye sürükleyip bırakmanız yeterlidir.
+
 
 
 
