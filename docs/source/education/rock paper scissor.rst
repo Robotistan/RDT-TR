@@ -2,36 +2,36 @@
 Rock-Paper-Scissor
 ###########
 
-Introduction
+Giriş
 -------------
-In this project, we will build a simple electronic rock-paper-scissors game by using Picobricks.
+Bu projemizde, PicoBricks'i kullanarak basit ve elektronik bir taş-kağıt-makas oyunu yapacağız.
 
-Project Details and Algorithm
+Projenin Detayları ve Algoritması
 ------------------------------
-This project is perfect for beginners, as it only requires a Picobricks.
+Bu proje sadece PicoBricks gerektirdiği için, başlangıç seviyesindeki kullanıcılar için harika!
 
-RULES:
+Kurallar:
 
-- Scissors cuts Paper
+- Makas, kağıdı keser.
 
-- Paper covers Rock
+- Kağıt, taşı sarar.
 
-- Rock crushes Scissors
+- Taş, makası kırar.
 
-How could you make this nicer?
+Bu proje nasıl daha iyi yapılabilir?
 
-Think about :
+Bir düşünelim:
 
-- Add a bigger button
+- Daha büyük bir buton eklenebilir
 
-- Add a bigger OLED screen
+- Daha büyük bir OLED ekran eklenebilir
 
-- Use images instead of text
+- Yazı yerine görseller kullanılabilir
 
-Use your imagination...
+Hayal gücünü kullan...
     
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +---------------------+
 ||rock-paper-scissors||     
@@ -40,4 +40,6 @@ Coding the Project with MicroBlocks
 .. |rock-paper-scissors| image:: _static/rock-paper-scissors.png
 
 .. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+  MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
+
+
