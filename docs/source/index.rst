@@ -1,38 +1,37 @@
 #############################################
-Welcome to 
+PicoBricks Dokümantasyonuna Hoş Geldiniz 
 #############################################
 
 .. image:: /../_static/main.gif
 
 
-<sifşkjjşnagjlgnşlk<fvj<itgıa,üpepıgkğpagkaigkilşgksigksl
 
 
 .. note::
 
-   This project is under active development.
+   Bu proje aktif gelişim aşamasındadır.
    
 .. tip::
 
-   If you have any questions, please contact technical support on our `Community <https://community.robotistan.com/>`_
+   Eğer sorunuz varsa, `Community <https://community.robotistan.com/>`_ üzerinden teknik destek ekibimizle iletişime geçebilirsiniz.
 
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
 
-   What is PicoBricks? <picobricks>
+   PicoBricks Nedir? <picobricks>
    Bricks <bricks>
    Bağlantı Yöntemleri <baglanti-yontemleri>
-   Development Environments <guides/guides>
-   Getting Started <started/started>
+   Geliştirme Ortamları <guides/guides>
+   Başlangıç <started/started>
    Projeler <projeler/projects>
    Eğitim <education/education>
    Bootloader <boatloader/boatloader>
-   Guide for MicroBlocks <library/mblib>
-   Datasheets <datasheet>
-   FAQ <faq/faq>
-   Troubleshooting <troubleshooting/troubleshooting>
-   Copyrights and Licenses <license>
+   MicroBlocks Kılavuzu <library/mblib>
+   Datasheetler <datasheet>
+   SSS <faq/faq>
+   Sorun Giderme <troubleshooting/troubleshooting>
+   Haklar ve Lisanslar <license>
    
    
 
