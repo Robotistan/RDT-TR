@@ -20,7 +20,7 @@ PicoBricks, elektronik ve kodlama ile ilgilenen herkes içindir. Modüler donan�
 
 Her Seviye İçin Geliştirme Ortamı Desteği
 
------------------------------------------
+----------------------------------------------
 
 Modüler donanım tasarımı, Scratch benzeri blok kodlama ortamı ve simülatör sayesinde daha önce deneyimi olmayan yeni başlayanlar, başlamayı kolay bulacaktır. Tecrübesi olanlar elektroniği daha derinlemesine inceleyebilir veya Python'da kodlamayı keşfedebilir. Ve en uzman yapımcılar bile Pico Bricks ile fikirleri ne kadar çabuk keşfedebileceklerini ve prototipler oluşturabileceklerini takdir edeceklerdir.PicoBricks, elektronik ve kodlamayla ile ilgilenen herkes içindir.
 
