@@ -1,10 +1,11 @@
-Frequently Asked Questions
+Sık Sorulan Sorular
 ===========================
 
-How can I get PicoBricks to work when I split it?
+PicoBricks'i kırdıktan sonra nasıl çalışacağım?
 --------------------------------------------------
 
-We can use the 12 modules on the PicoBricks by separating them from the break points and plugging them into the right connectors on the PicoBricks main board with a groove cable.
+PicoBricks üzerindeki 12 adet modülü kırılma noktalarından ayırıp PicoBricks ana kartı üzerindeki doğru yerlere konektör bir kablo ile bağlayıp kullanabiliriz.
+
 
 .. figure:: ../_static/faq.png      
     :align: center
@@ -12,39 +13,42 @@ We can use the 12 modules on the PicoBricks by separating them from the break po
     :figclass: align-center
     
     
-Do I need to add the picobricks.py library when making a project with Thonny?
+Thonny ile bir proje yaparken picobricks.py kütüphanesini eklemem gerekir mi?
 ------------------------------------------------------------------------------
 
-You can develop projects using different libraries, but you are required to use the picobricks.py library. In addition, the picobricks.py library is used in 25 projects included in the e-book.
+Farklı kütüphaneleri kullanarak projeler geliştirebilirsiniz ancak picobricks.py kütüphanesini kullanmanız gerekmektedir. Ayrıca e-kitapta yer alan 25 projede picobricks.py kütüphanesi kullanılmaktadır.
 
-To the picobricks.py library from the picobricks github page; 
 
-You can reach it by following the steps `PicoBricks/Software/Pre-Installed Code/picobricks.py <https://github.com/Robotistan/PicoBricks/blob/main/Software/Pre-Installed%20Code/picobricks.py>`_
+PicoBricks GitHub sayfasından, picobricks.py kütüphanesine aşağıdaki adımları takip ederek ulaşabilirsiniz.
 
-* How to add?
+`PicoBricks/Software/Pre-Installed Code/picobricks.py <https://github.com/Robotistan/PicoBricks/blob/main/Software/Pre-Installed%20Code/picobricks.py>`_
 
-After downloading library, you need to load the picobricks.py library into the raspberry pi pico by pressing the ctrl+shift+s key combination as described in the picture below.
+* Nasıl eklenir?
+
+Kütüphaneyi indirdikten sonra aşağıdaki resimde anlatıldığı gibi ctrl+shift+s tuş kombinasyonuna basarak picobricks.py kütüphanesini Raspberry Pi Pico içerisine yüklemeniz gerekmektedir.
+
 
 .. figure:: ../_static/faq1.png      
     :align: center
     :width: 620
     :figclass: align-center
 
-Should I BOOTSEL every time when I use PicoBricks?
----------------------------------------------------
+PicoBricks'i her kullandığımda BOOTSEL yapmalı mıyım?
+-------------------------------------------------------
 
 
-You don't need to BOOTSEL every time, if you don't switch between coding platforms, you don't need to BOOTSEL when you reconnect picobricks to the coding platform you developed the last project on. However, if you switch to a different platform, you need to BOOTSEL your card.
+Her seferinde BOOTSEL yapmanıza gerek yok, kodlama platformları arasında geçiş yapmıyorsanız, PicoBricks'i son projeyi geliştirdiğiniz kodlama platformuna yeniden bağladığınızda BOOTSEL yapmanıza gerek yok. Ancak farklı bir platforma geçerseniz, kartınızı BOOTSEL yapmanız gerekir.
 
-How can I test Picobricks boards and modules?
-----------------------------------------------
 
-To test the modules on Picobricks, R&D team has created 2 different test codes using Thonny and Microblocks platforms. You can test by using these test codes.
+PicoBricks kartını ve modüllerini nasıl test edebilirim?
+---------------------------------------------------------
 
-`For Thonny <https://github.com/Robotistan/PicoBricks/blob/main/Software/Pre-Installed%20Code/test.py>`_;
+Modülleri Picobricks üzerinde test etmek için Ar-Ge ekibi Thonny ve MicroBlocks platformlarını kullanarak 2 farklı test kodu oluşturdu. Bu test kodlarını kullanarak test edebilirsiniz.
+
+`Thonny için <https://github.com/Robotistan/PicoBricks/blob/main/Software/Pre-Installed%20Code/test.py>`_;
 
 .. tip::
-  If you rename test.py to main.py, your code will run after every boot.
+  Eğer test.py kodunun adını main.py yaparsanız, kodunu her boot sonrasında çalışacaktır.
 
 .. code-block:: bash
 
@@ -131,7 +135,7 @@ To test the modules on Picobricks, R&D team has created 2 different test codes u
         oled.fill(0)
 
 
-`For MicroBlocks <https://github.com/Robotistan/PicoBricks/tree/main/Software/Pre-Installed%20Code/Microblocks%20Test%20Code>`_;
+`MicroBlocks için <https://github.com/Robotistan/PicoBricks/tree/main/Software/Pre-Installed%20Code/Microblocks%20Test%20Code>`_;
 
 .. figure:: ../_static/faq5.png      
     :align: center
@@ -140,15 +144,16 @@ To test the modules on Picobricks, R&D team has created 2 different test codes u
     
     
 .. tip::
- You can access the Microblocks test code by dragging the image to the Microblocks Run tab.
+ Görseli MicroBlocks Run sekmesine sürükleyerek MicroBlocks test koduna erişebilirsiniz.
+
  
 
 
 
-On how many different platforms can I code PicoBricks?
+PicoBricks'i kaç farklı platformda kodlayabilirim?
 -------------------------------------------------------
 
-PicoBricks, is a project development board that can be programmed on three different platforms with Microblocks, Thonny and Arduino IDE.
+PicoBricks, MicroBlocks, Arduino ve Thonny olmak üzere 3 farklı platformda kodlanabilen bir geliştirme kartıdır.
 
 
  .. figure:: ../_static/main.png      
@@ -156,9 +161,9 @@ PicoBricks, is a project development board that can be programmed on three diffe
     :width: 200
     :figclass: align-center
     
-With MicroBlocks, we can develop projects by moving code blocks to our project page by drag-and-drop method. MicroBlocks is a block-based programming platform and is generally preferred by users with little coding knowledge, younger users or users who want to develop projects quickly.
+MicroBlocks ile kod bloklarını sürükle-bırak yöntemi ile proje sayfamıza taşıyıp projeler geliştirebiliyoruz. MicroBlocks, blok tabanlı bir programlama platformudur ve genellikle kodlama bilgisi az olan kullanıcılar, genç kullanıcılar veya hızlı bir şekilde proje geliştirmek isteyen kullanıcılar tarafından tercih edilir.
 
-Click `here <https://github.com/Robotistan/PicoBricks/tree/main/Software/Pre-Installed%20Code/Microblocks%20Test%20Code>`_; to go to MicroBlocks online editor.
+MicroBlocks online editöre gitmek için `buraya <https://github.com/Robotistan/PicoBricks/tree/main/Software/Pre-Installed%20Code/Microblocks%20Test%20Code>`_ tıkla.
 
 
  .. figure:: ../_static/main1.png      
@@ -167,7 +172,8 @@ Click `here <https://github.com/Robotistan/PicoBricks/tree/main/Software/Pre-Ins
     :figclass: align-center
     
 
-We can develop projects using the MicroPython language with the thonny coding platform. MicroPython is a programming language that eliminates punctuation (syntax) errors that are frequently made in coding platforms as much as possible.
+Thonny kodlama platformu ile MicroPython dilini kullanarak projeler geliştirebiliriz. MicroPython, kodlama platformlarında sıklıkla yapılan noktalama (syntax) hatalarını olabildiğince ortadan kaldıran bir programlama dilidir.
+
 
 
  .. figure:: ../_static/main2.png      
@@ -176,35 +182,37 @@ We can develop projects using the MicroPython language with the thonny coding pl
     :figclass: align-center
 
 
-Arduino IDE platform is one of the most common programs used for physical programming. It allows us to develop projects using the C programming language.
+Arduino IDE platformu, fiziksel programlama için kullanılan en yaygın programlardan biridir. C programlama dilini kullanarak proje geliştirmemizi sağlar.
 
 
 
-How can I create a new discussion in the PicoBricks Community?
+
+PicoBricks Community üzerinde nasıl yeni bir tartışma oluşturabilirim?
 ---------------------------------------------------------------
 
-Click `here <https://community.robotistan.com/>`_; to reach the Picobricks Community page. After clicking the New Discussion tab, you can write the title and what you want to write and share it. For a more accurate assessment of your question, you can also choose a category before sharing.
+PicoBricks Community sayfasına ulaşmak için `buraya <https://community.robotistan.com/>`_ tıklayın. Yeni Tartışma sekmesine tıkladıktan sonra başlığı ve yazmak istediklerinizi yazıp paylaşabilirsiniz. Sorunuzun daha doğru bir şekilde değerlendirilmesi için, paylaşmadan önce bir kategori de seçebilirsiniz.
 
 
-How can I reach The PicoBricks projects?
+PicoBricks projelerine nereden ulaşabilirim?
 -----------------------------------------
 
-25 projects are presented to Picobricks users as ready by the Picobricks Team.
+25 adet proje PicoBricks Ekibi tarafından hazır olarak PicoBricks kullanıcılarına sunulmaktadır.
 
-You can reach it by following the steps of `PicoBricks/Software/Examples/ <https://github.com/Robotistan/PicoBricks>`_; from Picobricks GitHub page.
 
-You can also access these projects on Picobricks Website, Robotistan INC Youtube channel and PicoBricks e-book.
+PicoBricks GitHub sayfasından bu adımları `PicoBricks/Software/Examples/ <https://github.com/Robotistan/PicoBricks>`_ takip edefrek ulaşabilirsiniz.
+
+Ek olarak, bu projelere PicoBricks Websitesinden, Robotistan INC YouTube kanalından ve PicoBricks e-kitaptan ulaşabilirsiniz.
  
  
-When I start splitting PicoBricks, do I have to split all the modules or can I only split one or a few modules?
+PicoBricks'i kırmaya başladığımda, tüm modülleri kırmalı mıyım yoksa sadece birkaç tanesini mi kırmalıyım?
 ----------------------------------------------------------------------------------------------------------------
  
-You don’t need to split all modules to run Picobricks modules correctly. After splitting only one or a few modules, you can use the split modules by plugging them into the corresponding connector on the Raspberry Pi Pico module with grove cables.
+Picobricks modüllerini doğru şekilde çalıştırmak için tüm modülleri kırmanız gerekmez. Yalnızca bir veya birkaç modülü böldükten sonra, bölünmüş modülleri Raspberry Pi Pico modülü üzerindeki ilgili yere konektör kablolarla takarak kullanabilirsiniz.
 
-What is the voltage range of the motor driver on the PicoBricks?
+PicoBricks motor sürücülerinin gerilim aralığı nedir?
 -----------------------------------------------------------------
 
-The voltage range of the motor driver is 2.5-7.5V.
+The voltage range of the motor driver is 2.5-7.5V. Motor sürücülerinin gerilim aralığı 2.5-7.5V'tur.
  
  
 
