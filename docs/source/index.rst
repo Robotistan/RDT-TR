@@ -28,7 +28,7 @@ PicoBricks Dokümantasyonuna Hoş Geldiniz
    Eğitim <education/education>
    Bootloader <boatloader/boatloader>
    MicroBlocks Kılavuzu <library/mblib>
-   Datasheetler <datasheet>
+   Datasheet <datasheet>
    SSS <sss/sss>
    Sorun Giderme <troubleshooting/troubleshooting>
    Haklar ve Lisanslar <license>
