@@ -29,7 +29,7 @@ PicoBricks Dokümantasyonuna Hoş Geldiniz
    Bootloader <boatloader/boatloader>
    MicroBlocks Kılavuzu <library/mblib>
    Datasheetler <datasheet>
-   SSS <faq/faq>
+   SSS <sss/sss>
    Sorun Giderme <troubleshooting/troubleshooting>
    Haklar ve Lisanslar <license>
    
