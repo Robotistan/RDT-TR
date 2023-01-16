@@ -11,6 +11,6 @@ Projenin MicroBlocks Kodu
 .. |counter-project| image:: _static/counter-project.png
 
 .. note::
-  MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks RUN sekmesine sürükleyip bırakmanız yeterlidir.
+  MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
 
 
