@@ -26,7 +26,7 @@ Welcome to
    Development Environments <guides/guides>
    Getting Started <started/started>
    Projeler <projeler/projects>
-   Education <education/education>
+   Eğitim <education/education>
    Bootloader <boatloader/boatloader>
    Guide for MicroBlocks <library/mblib>
    Datasheets <datasheet>
