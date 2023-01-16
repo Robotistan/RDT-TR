@@ -2,7 +2,7 @@
 Turtle Project
 ###########
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +--------+
 ||turtle||     
@@ -11,4 +11,6 @@ Coding the Project with MicroBlocks
 .. |turtle| image:: _static/turtle.png
 
 .. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+  MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
+
+
