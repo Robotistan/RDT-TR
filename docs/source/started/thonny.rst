@@ -1,5 +1,5 @@
 #############################################
-Thonny (MicroPython) IDE for Beginners
+Başlangıç Seviyesi İçin Thonny (MicroPython) IDE
 #############################################
 
 
@@ -9,11 +9,10 @@ Thonny (MicroPython) IDE for Beginners
     :figclass: align-center
     
     
-Thonny IDE Setup
+Thonny IDE Kurulumu
 ----------------
 
-At the heart of Picobricks is the Raspberry Pi Pico. The Thonny Raspberry Pi is a great choice for coding Pico and therefore Picobricks.
-Visit `Thonny Website <https://thonny.org/>`_ Select the version suitable for your system and download it to your computer. Then perform the installation. You can also install the Thonny IDE, using the command “ $ pip install thonny “
+Raspberry Pi Pico, PicoBricks'in kalbindedir. Thonny, Pico kartını ve PicoBricks'i kodlamak için harika bir seçimdir. `Thonny Websitesini <https://thonny.org/>`_ ziyaret edebilirsin. Uygun versiyonu seçin ve bilgisayarınıza indirin. Ardından kurulumu gerçekleştirin. Thonny IDE'yi “ $ pip install thonny “ komutunu kullanarak da yükleyebilirsiniz.
 
 .. code-block::
 
@@ -24,7 +23,7 @@ Visit `Thonny Website <https://thonny.org/>`_ Select the version suitable for yo
     :width: 420
     :figclass: align-center
     
-Thonny IDE Interface
+Thonny IDE Arayüzü
 -----------------------
 
 
@@ -34,73 +33,78 @@ Thonny IDE Interface
     :figclass: align-center
     
     
-A: Opens an empty script file.
-B: Allows you to open an existing code file.
-C: Allows you to save changes to the code file you are working on.
-D: Runs the code you wrote in the interpreter environment you specify.
-E: Allows you to check for errors in your code.
-F: Allows you to run lines of code in order to debug.
-G: Lets you navigate through the commands in the line of code while debugging.
-H: Lets you exit debug.
-I: Allows you to switch from debug mode to run mode.
-J: Makes the code stop executing.
+A: Boş bir komut dosyası açın.
+B: Mevcut bir  kod dosyası açabilirsiniz.
+C: Üzerinde çalıştığınız kod dosyasındaki değişiklikleri kaydedebilirsiniz.
+D: Belirttiğiniz yorumlama ortamında yazdığınız kodu çalıştırır.
+E: Kodunuzdaki hataları kontrol edebilirsiniz.
+F: Hata ayıklamak için kod satırlarını çalıştırabilirsiniz.
+G: Hata ayıklama sırasında kod satırındaki komutlar arasında gezinebilirsiniz.
+H: Hata ayıklamadan çıkabilirsiniz.
+I: Hata ayıklama modundan çalışma moduna geçebilirsiniz.
+J: Kodun yürütülmesini durdurabilirsiniz.
 
-Upload MicroPython Firmware to Raspberry Pi Pico
+MicroPython Aygıt Yazılımını Raspberry Pi Pico'ya Yükleyin
 -------------------------------------------------
 
-In order for Raspberry Pi Pico to understand the MicroPython code we will write, we must install a special operating system for it. We call this firmware. Open the Thonny editor and click Select interpreter from the Run menu.
+Raspberry Pi Pico'nun yazacağımız MicroPython kodunu anlaması için ona özel bir işletim sistemi kurmamız gerekiyor. Biz buna aygıt yazılımı diyoruz. Thonny editörünü açın ve Çalıştır menüsünden Tercüman seç'e tıklayın.
 
 .. figure:: ../_static/thonny3.png
     :align: center
     :width: 720
     :figclass: align-center
     
-Select the Raspberry Pi Pico from the drop-down list shown in area 1. Leave the 2nd area as in the image, click on the 3rd area.
+1. alanda gösterilen listeden Raspberry Pi Pico'yu seçin. 2. alanı resimdeki gibi bırakın, 3. alana tıklayın.
+
 
 .. figure:: ../_static/thonny2.png
     :align: center
     :width: 520
     :figclass: align-center
     
-Connect Pico to your computer's USB port with a cable while ``holding down the white bootsel button`` on it.
+Üzerindeki ``BOOTSEL butonuna'' basılı tutarak Pico'yu bir kablo ile bilgisayarınızın USB portuna bağlayın.
 
 .. figure:: ../_static/arduino3.png
     :align: center
     :width: 520
     :figclass: align-center
     
-After the Install button is activated, you can release the button. Press the ``Install button`` and wait for the firmware to load.
+Yükle butonu etkinleştirildikten sonra butonu bırakabilirsiniz. "Yükle butonuna" basın ve aygıt yazılımının yüklenmesini bekleyin.
+
 
 .. figure:: ../_static/thonny4.png
     :align: center
     :width: 520
     :figclass: align-center
     
-After the installation is complete, click the Close button to complete the installation.
+
+Kurulum tamamlandıktan sonra, kurulumu tamamlamak için Kapat butonuna tıklayın. 
 
 
-Installing and Running Code on Raspberry Pi Pico
--------------------------------------------------
+Raspberry Pi Pico'da Kod Yükleme ve Çalıştırma 
+------------------------------------------------- 
 
-Plug the Pico's cable directly into the computer's USB port. You don't need to hold down the Bootsel button. Select the ``“Select interpreter”`` option from the Run menu in Thonny. Make sure Raspberry Pi Pico is selected in section 1. Click the OK button to close the window.
+Pico'nun kablosunu doğrudan bilgisayarın USB bağlantı noktasına takın. Bootsel butonuna basılı tutmanız gerekmez. Thonny'deki Çalıştır menüsünden ``Tercüman seç'` seçeneğini seçin. 1. bölümde Raspberry Pi Pico'nun seçili olduğundan emin olunuz. Tamam butonuna tıklayarak pencereyi kapatınız.
 
 .. figure:: ../_static/thonny5.png
     :align: center
     :width: 520
     :figclass: align-center
 
-Activate the Files option from the View menu. A long file explorer tab will be placed on the left side of the screen. If you see Raspberry Pi Pico in section 1, it means that it is connected to Thonny Pico without any problems, you are ready to write, save and run your code. File explorer area that shows the working directory on your computer.
 
-The MicroPython code you wrote in Thonny consist of libraries arranged for Raspberry Pi Pico and similar micro control cards and are called MicroPython. The syntax and almost all libraries work the same as MicroPython.
-The ``"hello world"`` application of the software world is the ``"blink"`` application to physical programming. Write down the code shown in field 1. Click the save button in area 2. Thonny will ask you in the window in area 3 whether you want to save your code in the working directory on your computer or in Pico's onboard memory. If you choose your computer, the resulting file will appear in field 4, and if you choose Pico, the resulting file will appear in field
+Görünüm menüsünden Dosyalar seçeneğini etkinleştirin. Ekranın sol tarafına uzun bir dosya gezgini sekmesi yerleştirilecektir. 1. bölümde Raspberry Pi Pico'yu görüyorsanız Thonny Pico'ya sorunsuz bir şekilde bağlanmış demektir, kodunuzu yazmaya, kaydetmeye ve çalıştırmaya hazırsınız demektir. 
+
+Thonny'de yazdığınız MicroPython kodu, Raspberry Pi Pico ve benzeri mikro kontrol kartları için düzenlenmiş kütüphanelerden oluşuyor ve MicroPython olarak adlandırılıyor. Sözdizimi ve neredeyse tüm kitaplıklar MicroPython ile aynı şekilde çalışır.
+Yazılım dünyasının ``"merhaba dünya"`` uygulaması, fiziksel programlamaya ``"blink"`` uygulamasıdır. 1. alanda gösterilen kodu yazın. 2. alandaki kaydet butonuna tıklayın. Thonny, 3. alandaki pencerede size kodunuzu bilgisayarınızın çalışma dizinine mi yoksa Pico'nun belleğine mi kaydetmek istediğinizi soracaktır. Bilgisayarınızı seçerseniz, ortaya çıkan dosya 4. alanda, Pico'yu seçerseniz, ortaya çıkan dosya alanda görünecektir.
 
 .. figure:: ../_static/thonny6.png
     :align: center
     :width: 520
     :figclass: align-center
     
-Select Raspberry Pi Pico from the Save in window, type ``“blink.py”``  in the File Name field and click the OK button.After seeing the ``"blink.py"`` file in Pico's file explorer, click the F5 key on the keyboard or the green Run button on the toolbar, and the code file will be run by Pico. If you see the internal LED on the Pico blinking at 1 second intervals, you have successfully written and run your first code. Congratulations :)
+Kayıt penceresinden Raspberry Pi Pico'yu seçin, Dosya Adı alanına ``“blink.py”`` yazın ve Tamam butonuna tıklayın. ``"blink.py"`` dosyasını Pico'nun dosya gezgininde gördükten sonra tıklayın. klavyedeki F5 tuşuna veya araç çubuğundaki yeşil Çalıştır butonuna basın ve kod dosyası Pico tarafından çalıştırılacaktır. Pico üzerindeki dahili LED'in 1 saniye aralıklarla yanıp söndüğünü görüyorsanız, ilk kodunuzu başarıyla yazıp çalıştırmışsınız demektir. Tebrikler :)
+
 
 .. note::
-   If you want the code you have written to run as soon as Pico is opened without giving a run command, you should save your code in Pico's main directory with the name ``"main.py".``
+   Yazdığınız kodun Pico açılır açılmaz çalıştır komutu vermeden çalışmasını istiyorsanız, kodunuzu Pico'nun ana dizinine ``"main.py"`` adıyla kaydetmelisiniz.
 
