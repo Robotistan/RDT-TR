@@ -25,12 +25,13 @@ Başlangıç Seviyesi için Thonny(MicroPython) IDE
     :figclass: align-center
 
 .. tip::
-     If you rename your code file to main.py, your code will run after every boot.
+     Eğer kodunuzu main.py adıyla keydederseniz, her boot yaptığınızda çalışacaktır.
      
 Arduino IDE 
 -------------
 
-Picobricks offers us the opportunity to code with Arduino C. Getting started coding the Raspberry Pi Pico at the heart of Picobricks with the widely used Arduino IDE is pretty easy.
+Picobricks bize Arduino C ile kodlama fırsatı sunuyor. Picobricks'in kalbinde yer alan Raspberry Pi Pico'yu yaygın olarak kullanılan Arduino IDE ile kodlamaya başlamak oldukça kolay.
+
 
 .. figure:: ../_static/main2.png
     :align: center
