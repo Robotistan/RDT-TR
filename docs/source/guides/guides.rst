@@ -17,7 +17,7 @@ MicroBlocks, micro:bit, Adafruit Circuit Playground Express ve diğerleri gibi e
 Başlangıç Seviyesi için Thonny(MicroPython) IDE
 ---------------------------------------
  
- PicoBricks'in kalbi Raspberry Pi Pico'dur. Thonny, Raspberry Pi Pico ve PicoBricks'i kodlamak için harika bir seçimdir. 
+PicoBricks'in kalbi Raspberry Pi Pico'dur. Thonny, Raspberry Pi Pico ve PicoBricks'i kodlamak için harika bir seçimdir. 
 
 .. figure:: ../_static/main1.png
     :align: center
