@@ -20,9 +20,9 @@ Picobricks'i MicroBlocks ile programlamak için tarayıcıda  `MicroBlocks Web S
     :width: 720
     :figclass: align-center
     
-MicroBlocks'u bir Chrome veya Edge tarayıcısında çalıştırmak için herhangi bir şey yüklemeniz gerekmez; ekranın sağ üst köşesindeki menüden ``RUN`` düğmesine tıklayarak çevrimiçi düzenleyiciyi çalıştırabilirsiniz. Alternatif olarak, İndir düğmesine tıklayarak işletim sisteminize uygun çevrimdışı bir sürümü indirebilir ve bilgisayarınıza kurabilirsiniz.
+MicroBlocks'u bir Chrome veya Edge tarayıcısında çalıştırmak için herhangi bir şey yüklemeniz gerekmez; ekranın sağ üst köşesindeki menüden ``RUN`` butonuna tıklayarak çevrimiçi düzenleyiciyi çalıştırabilirsiniz. Alternatif olarak, İndir butonuna tıklayarak işletim sisteminize uygun çevrimdışı bir sürümü indirebilir ve bilgisayarınıza kurabilirsiniz.
 
-MicroBlocks Web editörünü tarayıcınıza kaydedebilir ve internet erişimi olmadan kullanabilirsiniz. MicroBlocks Web uygulamasını kaydetmek için tarayıcınızda MicroBlocks'u çalıştırın, ardından tarayıcınızın URL çubuğunun sağ üst köşesindeki yükle düğmesine tıklayın.
+MicroBlocks Web editörünü tarayıcınıza kaydedebilir ve internet erişimi olmadan kullanabilirsiniz. MicroBlocks Web uygulamasını kaydetmek için tarayıcınızda MicroBlocks'u çalıştırın, ardından tarayıcınızın URL çubuğunun sağ üst köşesindeki yükle butonuna tıklayın.
 
 .. figure:: ../_static/microblocks1.png
     :align: center
@@ -62,14 +62,14 @@ MicBlocks-PicoBricks Bağlantı ve Çalıştırma
 ------------------------------------------------
 * Yazılımı Çevrimdışı Düzenleyicide Bağlama ve Güncelleme 
 
-Picobricks'i çevrimdışı editörüne bağlamak için, Raspberry Pi Pico üzerinde ``BOOTSEL düğmesini basılı tutarken`` USB kablosu ile kartı bilgisayarınıza bağlamanız gerekir.
+Picobricks'i çevrimdışı editörüne bağlamak için, Raspberry Pi Pico üzerinde ``BOOTSEL butonunu basılı tutarken`` USB kablosu ile kartı bilgisayarınıza bağlamanız gerekir.
 
 .. figure:: ../_static/arduino3.png
     :align: center
     :width: 420
     :figclass: align-center
     
-MicroBlocks çevrimdışı editörünü açın ve MicroBlocks menüsünden MicroBlocks düğmesine (dişli simgesi) tıklayın, ardından cihaz yazılımını güncelle seçeneğine tıklayın.
+MicroBlocks çevrimdışı editörünü açın ve MicroBlocks menüsünden MicroBlocks butonuna (dişli simgesi) tıklayın, ardından cihaz yazılımını güncelle seçeneğine tıklayın.
 
 
 .. figure:: ../_static/microblocks2.png
@@ -92,16 +92,16 @@ Picobricks'i çevrimiçi editöre bağlamak için fazladan birkaç adım gerekli
 	
 Kart seçildiğinde, aşağıdaki Yazılım Yükleme penceresi açılacaktır.
 
-Şimdi Pico üzerindeki BOOTSEL düğmesini basılı tutarken kartı bilgisayarınıza bağlayın.
+Şimdi Pico üzerindeki BOOTSEL butonunu basılı tutarken kartı bilgisayarınıza bağlayın.
 
 .. figure:: ../_static/microblocks5.png
     :align: center
     :width: 220
     :figclass: align-center
 
-Görüntülenen mesajdaki "Tamam" düğmesine tıklayın ve vm_pico.uf2 adlı yazılım dosyası seçili olarak RPI-RP2 sürücüsüne konumlandırılan sistem dosyası yöneticisi penceresini otomatik olarak açacaktır.
+Görüntülenen mesajdaki "Tamam" butonuna tıklayın ve vm_pico.uf2 adlı yazılım dosyası seçili olarak RPI-RP2 sürücüsüne konumlandırılan sistem dosyası yöneticisi penceresini otomatik olarak açacaktır.
 
-Kaydet düğmesine tıklayın, aygıt yazılımı güncellemesi tamamlanacaktır.
+Kaydet butonuna tıklayın, aygıt yazılımı güncellemesi tamamlanacaktır.
 
 .. figure:: ../_static/microblocks6.png
     :align: center
@@ -110,7 +110,7 @@ Kaydet düğmesine tıklayın, aygıt yazılımı güncellemesi tamamlanacaktır
     
 - Normal işlemler için bağlanma (Yazma ve Düzenleme programları):
 
-Bağlan düğmesine tıklandığında mikro cihazların takılı olduğu sistem USB portları görüntülenecektir. Bu pencerede önce Pico cihazını seçip ardından Bağlan düğmelerine tıklayarak Picobricks'i MicroBlocks'a bağlayabilirsiniz. Bağlantı başarılı olduğunda, USB simgesinin arkasında yeşil bir daire görünecektir.
+Bağlan butonuna tıklandığında mikro cihazların takılı olduğu sistem USB portları görüntülenecektir. Bu pencerede önce Pico cihazını seçip ardından Bağlan butonlarına tıklayarak Picobricks'i MicroBlocks'a bağlayabilirsiniz. Bağlantı başarılı olduğunda, USB simgesinin arkasında yeşil bir daire görünecektir.
 
 .. figure:: ../_static/microblocks18.png
     :align: center
@@ -127,7 +127,7 @@ PicoBricks modüllerinden herhangi birini kullanmak için öncelikle PicoBricks 
     :figclass: align-center
 
 
-Dosya Aç penceresinde, desteklenen cihazların listesini açmak için Kitler ve Panolar butonuna tıklayın. Açılır listeden PicoBricks'e ve ardından Aç düğmesine tıklayın.
+Dosya Aç penceresinde, desteklenen cihazların listesini açmak için Kitler ve Panolar butonuna tıklayın. Açılır listeden PicoBricks'e ve ardından Aç butonuna tıklayın.
 
 
 .. figure:: ../_static/microblocks9.png
