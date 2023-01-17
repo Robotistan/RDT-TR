@@ -2,18 +2,19 @@
 Know Your Color
 ###########
 
-Introduction
+Giriş
 -------------
-In this project you will learn about the randomness used in every programming language. We will prepare a enjoyable game with the RGB LED, OLED screen and button module of Picobricks. The game we will build in the project will be built on the user knowing the colors correctly or incorrectly.
+Bu projede her programlama dilinde kullanılan rastgelelik durumunu öğreneceksin. Picobricks’in RGB LED, OLED ekran ve buton modülü ile eğlenceli bir oyun hazırlayacağız. Projede inşa edeceğimiz oyun kullanıcının renkleri doğru veya yanlış bilmesi üzerine kurgulanacaktır.
 
-Project Details and Algorithm
+Proje Detayları ve Algoritması
 ------------------------------
 
-LEDs are often used on electronic systems. Each button can have small LEDs next to each option. By making a single LED light up in different colors, it is possible to do the work of more than one LED with a single LED. LEDs working in this type are called RGB LEDs. It takes its name from the initials of the color names Red, Green, Blue. Another advantage of this LED is that it can light up in mixtures of 3 primary colors. Purple, turquoise, orange…
+Elektronik sistemler üzerinde LED’ler sıklıkla kullanılır. Her butonun her seçeneğin yanında küçük LED’ler bulunabilmektedir. Tek bir LED’i değişik renklerde yanmasını sağlayarak birden fazla LED’in yaptığı işi tek bir LED ile yapılması sağlanabilmektedir. Bu türde çalışan LED’lere RGB LED denir. Adını Red, Green, Blue renk isimlerinin baş harflerinden alır. Bu LED’in diğer avantajı da 3 ana rengin karışımlarında da yanabilmesidir. Mor, turkuaz, turuncu…
 
-One of the colors red, green, blue and white will light up randomly on the RGB LED on Picobricks, and the name of one of these four colors will be written randomly on the OLED screen at the same time. The user must press the button of Picobricks within 1.5 seconds to use the right of reply. The game will be repeated 10 times, each repetition will get 10 points if the user presses the button when the colors match, or if the user does not press the button when they do not match. If the user presses the button even though the colors do not match, he will lose 10 points. After ten repetitions, the user’s score will be displayed on the OLED screen. If the user wishes, he may not use his right of reply by not pressing the button.
+PicoBricks üzerindeki RGB LED’de kırmızı, yeşil, mavi ve beyaz renklerden birisi rastgele olarak yanacak, aynı anda OLED ekranda yine bu dört renkten birisinin adı rastgele olarak yazılacaktır. Kullanıcı cevap hakkını kullanmak için 1,5 saniye içerisinde Picobricks’in butonuna basmalıdır. Oyun 10 kere tekrarlanacak, her tekrarda renkler eşlediğinde kullanıcı butona basarsa ya da eşleşmediğinde kullanıcı butona basmazsa 10 puan alacaktır. Renkler eşleşmediği halde kullanıcı butona basarsa 10 puan kaybedecektir. On tekrar sonunda kullanıcının aldığı puan OLED ekranda gösterilecektir. Kullanıcı dilerse butona basmayarak cevap hakkını kullanmayabilir. 
 
-Wiring Diagram
+
+Bağlantı Diyagramı
 --------------
 
 .. figure:: ../_static/know-your-color.png      
@@ -27,9 +28,9 @@ Wiring Diagram
     :figclass: align-center
 
 
-You can program and run Picobricks modules without any wiring. If you are going to use the modules by separating them from the board, then you should make the module connections with the Grove cables provided.
+Picobricks modüllerini herhangi bir kablo bağlantısı olmadan programlayabilir ve çalıştırabilirsiniz. Modülleri karttan ayırarak kullanacaksanız modül bağlantılarını verilen konektör kablolar ile yapmalısınız.
 
-MicroPython Code of the Project
+Projenin MicroPython Kodu
 --------------------------------
 .. code-block::
 
@@ -146,9 +147,9 @@ MicroPython Code of the Project
 
 
 .. tip::
-  Ifyou rename your code file to main.py, your code will run after every boot.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptığınızda çalışacaktır.
    
-Arduino C Code of the Project
+Projenin Arduino C Kodu
 -------------------------------
 
 
@@ -266,7 +267,7 @@ Arduino C Code of the Project
 
     }
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +------------------+
 ||know-your-color2||     
@@ -277,7 +278,7 @@ Coding the Project with MicroBlocks
 
 
 .. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+    MicroBlocks ile kodlama yapmak için yukarıdaki görseli MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
