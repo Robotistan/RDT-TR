@@ -10,7 +10,7 @@ Başlangıç
     
 
 .. toctree::
-    :caption: PicoBricks with :
+    :caption: PicoBricks ile :
     :maxdepth: 1
     :glob:
 
