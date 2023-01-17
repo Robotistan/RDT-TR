@@ -275,9 +275,8 @@ Projenin MicroBlocks Kodu
 
 
 
-Not
------
-MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
+.. note::
+    MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
