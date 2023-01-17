@@ -4,7 +4,7 @@ Dominate The Rhythm
 
 Giriş
 -------------
-When the user presses the button to start the song, we will prepare the note codes that will allow the notes to play for the duration calculated according to the rthm variable.   
+Kullanıcı şarkıyı başlatmak için butona bastığında, rthm değişkenine göre hesaplanan süre boyunca notaların çalmasını sağlayacak nota kodlarını hazırlayacağız.
 
 Projenin Detayları ve Algoritması
 ------------------------------
