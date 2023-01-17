@@ -1,5 +1,5 @@
 ###########
-Ses Kontrollü Araba
+Voice Controlled Car
 ###########
 
 Giriş
