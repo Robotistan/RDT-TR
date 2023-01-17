@@ -185,9 +185,8 @@ Projenin MicroBlocks Kodu
 .. |buzz-wire-game1| image:: _static/buzz-wire-game1.png
 
 
-Not
------  
-MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks RUN sekmesine sürükleyip bırakmanız yeterlidir.
+.. note::
+    MicroBlocks ile kodlama yapmak için yukarıdaki görseli MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
