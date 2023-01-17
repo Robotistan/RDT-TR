@@ -2,21 +2,22 @@
 Digital Ruler
 ###########
 
-Introduction
+Giriş
 -------------
-In this project, you will learn how to receive and react to a command from the user in your projects by coding the button-LED module of Picobricks.
+Projemizde PicoBricks ile ultrasonik sensör kullanarak mesafe değerini butona basıldığında OLED ekranda göstereceğimiz dijital bir cetvel hazırlayacağız.
 
-Project Details and Algorithm
+Projenin Detayları ve Algoritması
 ------------------------------
 
-As Newton explained in his laws of motion, a reaction occurs against every action. Electronic systems receive commands from users and perform their tasks. Usually a keypad, touch screen or a button is used for this job. Electronic devices respond verbally, in writing or visually to inform the user that their task is over and what is going on during the task. In addition to informing the user of these reactions, it can help to understand where the fault may be in a possible malfunction.
-
-Different types of buttons are used in electronic systems. Locked buttons, push buttons, switched buttons... There is 1 push button on Picobricks. They work like a switch, they conduct current when pressed and do not conduct current when released. In the project, we will understand the pressing status by checking whether the button conducts current or not. If it is pressed, it will light the LED, if it is not pressed, we will turn off the LED.
-
+Uzunluk ölçmek için birçok araç kullanılmaktadır. Bu araçların başında cetveller gelmektedir. Ölçeceğimiz yere ve büyüklüğüne göre ölçü aletimiz farklılaşmaktadır. İnşaat ve mimaride şerit metreler , küçük ve milimetrik hassasiyet gerektiren nesneler için kumpaslar kullanılmaktadır. Ayrıca hem büyük hem de hassas ölçüm yapılması gereken bir alan ölçülmek isteniyorsa lazer ve kızılötesi sistemler ile çalışan mesafe ölçerler kullanılmaktadır. Sağlık sektöründe kullanılan ultrasonografi cihazları da benzer mantıkla çalışmakta ancak ölçümlerini görsellere dönüştürmektedir. 
+Ultrasonik sensörler yaydıkları ses dalgalarının geri dönüş sürelerine göre mesafe tespiti yaparlar. 
 
 
 
-Wiring Diagram
+
+
+
+Bağlantı Diyagramı
 --------------
 
 .. figure:: ../_static/digital-ruler.png      
@@ -26,9 +27,9 @@ Wiring Diagram
     
 
 
-You can program and run Picobricks modules without any wiring. If you are going to use the modules by separating them from the board, then you should make the module connections with the Grove cables provided.
+Picobricks modüllerini herhangi bir kablo bağlantısı olmadan programlayabilir ve çalıştırabilirsiniz. Modülleri karttan ayırarak kullanacaksanız modül bağlantılarını verilen konektör kablolar ile yapmalısınız.
 
-MicroPython Code of the Project
+Projenin MicroPython Kodu
 --------------------------------
 .. code-block::
 
@@ -95,9 +96,9 @@ MicroPython Code of the Project
 
 
 .. tip::
-  If you rename your code file to main.py, your code will run after every boot.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptınızda çalışacaktır.
    
-Arduino C Code of the Project
+Projenin Arduino C Kodu
 -------------------------------
 
 
@@ -169,7 +170,7 @@ Arduino C Code of the Project
         }
     }
     
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +----------------+
 ||digital-ruler1||     
@@ -180,7 +181,7 @@ Coding the Project with MicroBlocks
 
 
 .. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+    MicroBlocks ile kodlama yapmak için yukarıdaki görseli MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
