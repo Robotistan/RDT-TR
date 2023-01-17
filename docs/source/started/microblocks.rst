@@ -1,65 +1,76 @@
 #############################################
-MicroBlocks Block Programming Language
+MicroBlocks Blok Tabanlı Programlama Dili
 #############################################
 
 .. image:: /../_static/kid.gif
 
 
-What MicroBlocks Is?
+MicroBlocks Nedir?
 --------------------
 
-MicroBlocks is a free, Scratch-like blocks programming language for learning physical computing with educational microcontroller boards such as the micro:bit, Adafruit Circuit Playground Express, and many others. MicroBlocks is a live environment. Click on a block and it runs immediately, right on the board. Try out commands. See and graph sensor values in real time. No more waiting for code to compile and download. Want to display an animation while controlling a motor? No problem! MicroBlocks lets you write separate scripts for each task and run them at the same time. Your code is simpler to write and easier to understand. MicroBlocks runs on many different boards, but your scripts are portable. Buttons, sensors, and display blocks behave the same on all boards with the relevant hardware. Once you run the code in MicroBlocks, you can disconnect the USB and feed the Picobricks with a different power source. The code on the card will work automatically. 
+MicroBlocks, micro:bit, Adafruit Circuit Playground Express ve diğerleri gibi eğitici mikrodenetleyici kartlarıyla fiziksel hesaplamayı öğrenmek için kullanılan ücretsiz, Scratch benzeri blok programlama dilidir.
+MicroBlocks canlı bir ortamdır. Bir bloğa tıklayın ve hemen panoda çalışsın. Komutları deneyin. Sensör değerlerini gerçek zamanlı olarak görün ve grafiklendirin. Artık kodun derlenmesi ve indirilmesi için beklemenize gerek yok.
+Bir motoru kontrol ederken aynı anda bir animasyon görüntülemek ister misiniz? MicroBlocks, her görev için ayrı komut dosyaları yazmanıza ve bunları aynı anda çalıştırmanıza olanak tanır. Kodunuzun yazılması daha basit ve anlaşılması daha kolaydır. MicroBlocks birçok farklı panoda çalışır, ancak komut dosyalarınız taşınabilirdir. Butonlar, sensörler ve gösterge blokları, ilgili donanıma sahip tüm kartlarda aynı şekilde davranır. Kodu MicroBlocks'ta çalıştırdıktan sonra, USB bağlantısını kesebilir ve Picobricks'i farklı bir güç kaynağıyla besleyebilirsiniz. Karttaki kod otomatik olarak çalışacaktır.
 
-To program Picobricks with MicroBlocks, let's open `MicroBlocks Website <https://microblocks.fun/>`_  in the browser (Google Chrome and Edge browsers are recommended).
+Picobricks'i MicroBlocks ile programlamak için tarayıcıda  `MicroBlocks Web Sitesini <https://microblocks.fun/>`_ açalım (Google Chrome ve Edge tarayıcıları önerilir).
+
 
 .. figure:: ../_static/microblocks.png
     :align: center
     :width: 720
     :figclass: align-center
     
-You don't need to install anything to run MicroBlocks in a Chrome or Edge browser; you can run the online editor by clicking the Run button in the menu at the top right of the screen. Alternatively, by clicking the Download button, you can download an off-line version suitable for your operating system and install it on your computer.
+MicroBlocks'u bir Chrome veya Edge tarayıcısında çalıştırmak için herhangi bir şey yüklemeniz gerekmez; ekranın sağ üst köşesindeki menüden ``RUN`` düğmesine tıklayarak çevrimiçi düzenleyiciyi çalıştırabilirsiniz. Alternatif olarak, İndir düğmesine tıklayarak işletim sisteminize uygun çevrimdışı bir sürümü indirebilir ve bilgisayarınıza kurabilirsiniz.
 
-You can save MicroBlocks Web editor in your browser and use it without internet access. Run MicroBlocks in your browser to register the MicroBlocks Web app, then click the install button in the upper-right corner of your browser's URL bar.
+MicroBlocks Web editörünü tarayıcınıza kaydedebilir ve internet erişimi olmadan kullanabilirsiniz. MicroBlocks Web uygulamasını kaydetmek için tarayıcınızda MicroBlocks'u çalıştırın, ardından tarayıcınızın URL çubuğunun sağ üst köşesindeki yükle düğmesine tıklayın.
 
 .. figure:: ../_static/microblocks1.png
     :align: center
     :width: 720
     :figclass: align-center
     
-IDE Introduction
+IDE'ye Giriş
 --------------------
     
-When you open the MicroBlocks program, you will see the IDE image shown below. You can review the explanation of the IDE components below. For a detailed and most current description of the IDE, please refer to our User Guide in our WIKI.
+MicroBlocks programını açtığınızda aşağıda gösterilen IDE görüntüsünü göreceksiniz. IDE bileşenlerinin açıklamasını aşağıdan inceleyebilirsiniz. IDE'nin ayrıntılı ve en güncel açıklaması için lütfen WIKI'deki Kullanıcı Kılavuzumuza bakın.
+
 
 .. figure:: ../_static/microblocks3.png
     :align: center
     :width: 720
     :figclass: align-center
 
-- ``Menu Bar:`` In this section, the first button from left to right allows us to change the language option of the program. The second button is the menu where we can see the operational settings of MicroBlocks and the firmware update selection,  while the third button offers the File related options. The fourth button opens a graph window used by the graph block to plot data, while the fifth rightmost button is used to connect to the  Picobricks via the USB interface..
+- ``Menu Bar:`` Bu bölümde soldan sağa doğru ilk buton programın dil seçeneğini değiştirmemizi sağlıyor. İkinci buton MicroBlocks'un çalışma ayarlarını ve firmware güncelleme seçimini görebileceğimiz menü iken üçüncü buton File ile ilgili seçenekleri sunuyor. Dördüncü buton, verileri çizmek için grafik bloğu tarafından kullanılan bir grafik penceresini açarken, en sağdaki beşinci buton, USB arabirimi aracılığıyla Picobricks'e bağlanmak için kullanılır.
 
-- ``Block Categories:`` This field contains the categories of blocks used for programming in MicroBlocks. Categories are grouped using different colors. As the categories are selected, the relevant blocks will be listed in the Blocks Palette (Field 3).
 
-- ``Blocks Palette:`` As selections are made in the Block categories field, blocks with specific functions will be listed in this field. code are written by dragging and dropping the blocks in this area to the Scripting area number 4.
+- ``Block Categories:`` Bu alan, MicroBlocks'ta programlama için kullanılan blok kategorilerini içerir. Kategoriler farklı renkler kullanılarak gruplandırılmıştır. Kategoriler seçildikçe bloklar paletinde (Alan 3) ilgili bloklar listelenecektir.
 
-- ``Scripting Area:`` This is the area where all coding activities take place. Users drag and drop blocks into this area to create scripts and custom blocks (functions).
 
-- ``Start/Stop Buttons:`` This area contains two icons, Start and Stop, which are used to control the MicroBlocks programs.
+- ``Blocks Palette:`` Blok kategorileri alanında seçimler yapıldıkça bu alanda belirli fonksiyonları olan bloklar listelenir. Bu alandaki bloklar 4 numaralı Scripting alanına sürüklenerek kod yazılır.
 
-- ``Library List:`` The contents of this area reflects the various libraries that are loaded depending on the requirements of the user scripts and micro devices.
 
-MicroBlocks-Picobricks Connection and Operation
+- ``Scripting Area:`` Tüm kodlama aktivitelerinin yapıldığı alandır. Kullanıcılar, komut dosyaları ve özel bloklar (işlevler) oluşturmak için blokları bu alana sürükleyip bırakır.
+
+
+- ``Start/Stop Buttons:`` Bu alan, MicroBlocks programlarını kontrol etmek için kullanılan Start ve Stop olmak üzere iki simge içerir.
+
+
+- ``Library List:`` Bu alanın içeriği, kullanıcının komutları ve mikro cihazlarının gereksinimlerine bağlı olarak yüklenen çeşitli kütüphaneleri sunar. 
+
+
+MicBlocks-PicoBricks Bağlantı ve Çalıştırma
 ------------------------------------------------
-* Connecting and Updating the Firmware in the Offline Editor
+* Yazılımı Çevrimdışı Düzenleyicide Bağlama ve Güncelleme 
 
-To connect Picobricks to the offline editor, you must connect the card to your computer with the USB cable while ``holding the white BOOTSEL button`` on the Raspberry Pi Pico.
+Picobricks'i çevrimdışı editörüne bağlamak için, Raspberry Pi Pico üzerinde ``BOOTSEL düğmesini basılı tutarken`` USB kablosu ile kartı bilgisayarınıza bağlamanız gerekir.
 
 .. figure:: ../_static/arduino3.png
     :align: center
     :width: 420
     :figclass: align-center
     
-Open the MicroBlocks offline editor and from the MicroBlocks menu, click the MicroBlocks button (gear icon), then click update firmware on board. 
+MicroBlocks çevrimdışı editörünü açın ve MicroBlocks menüsünden MicroBlocks düğmesine (dişli simgesi) tıklayın, ardından cihaz yazılımını güncelle seçeneğine tıklayın.
+
 
 .. figure:: ../_static/microblocks2.png
     :align: center
@@ -67,48 +78,48 @@ Open the MicroBlocks offline editor and from the MicroBlocks menu, click the Mic
     :figclass: align-center
     
     
-You will be presented with a Pico board type selection. Select RP2040(Pico). Firmware installation will only take a few seconds and when finished, MicroBlocks will automatically connect to Picobricks.
+RP2040(Pico) öğesini seçin. Kurulumu yalnızca birkaç saniye sürecek ve bittiğinde, MicroBlocks otomatik olarak Picobricks'e bağlanacaktır.
+
 
 .. figure:: ../_static/microblocks4.png
     :align: center
     :width: 220
     :figclass: align-center
 
-- Connecting and Updating the Firmware in the Online Editor
+- Çevrimiçi Editörde Bağlantı ve Güncelleme
 
-A few extra steps are required to connect Picobricks to the online editor. For security reasons, the scanner cannot access the card's USB drive without prompting the user. First, click the MicroBlocks button (gear icon) from the menu, then click the update firmware on board option and select the card type by clicking RP2040 (Pico) from the drop-down list.
-
-When the card is selected, the Firmware Install window will open displaying the following message.
+Picobricks'i çevrimiçi editöre bağlamak için fazladan birkaç adım gereklidir. Güvenlik nedeniyle tarayıcı, kullanıcıya sormadan kartın USB sürücüsüne erişemez. Önce menüden MicroBlocks düğmesine (dişli simgesi) tıklayın, ardından kartta yazılımı güncelle seçeneğine tıklayın ve açılan listeden RP2040 (Pico) seçeneğine tıklayarak kart tipini seçin.
 	
-Now, while holding down the white BOOTSEL button on the Pico, connect the card to your computer. 
+Kart seçildiğinde, aşağıdaki Yazılım Yükleme penceresi açılacaktır.
+
+Şimdi Pico üzerindeki BOOTSEL düğmesini basılı tutarken kartı bilgisayarınıza bağlayın.
 
 .. figure:: ../_static/microblocks5.png
     :align: center
     :width: 220
     :figclass: align-center
 
-Click the OK button on the displayed message and it will automatically open the system file manager window positioned to the RPI-RP2 drive with the firmware file named vm_pico.uf2 selected. 
+Görüntülenen mesajdaki "Tamam" düğmesine tıklayın ve vm_pico.uf2 adlı yazılım dosyası seçili olarak RPI-RP2 sürücüsüne konumlandırılan sistem dosyası yöneticisi penceresini otomatik olarak açacaktır.
 
-Click the Save button and the firmware update will complete.
+Kaydet düğmesine tıklayın, aygıt yazılımı güncellemesi tamamlanacaktır.
 
 .. figure:: ../_static/microblocks6.png
     :align: center
     :width: 720
     :figclass: align-center
     
-- Connecting for normal operations (Write & Edit programs):
+- Normal işlemler için bağlanma (Yazma ve Düzenleme programları):
 
-Clicking the Connect button will display the system USB ports where the micro devices are plugged in. In this window, you can connect Picobricks to MicroBlocks by first selecting the Pico device and then clicking the Connect buttons. When the connection is successful, a green circle will appear behind the USB icon.
+Bağlan düğmesine tıklandığında mikro cihazların takılı olduğu sistem USB portları görüntülenecektir. Bu pencerede önce Pico cihazını seçip ardından Bağlan düğmelerine tıklayarak Picobricks'i MicroBlocks'a bağlayabilirsiniz. Bağlantı başarılı olduğunda, USB simgesinin arkasında yeşil bir daire görünecektir.
 
 .. figure:: ../_static/microblocks18.png
     :align: center
     :width: 720
     :figclass: align-center
     
+ MicroBlocks, gerçek zamanlı bir kodlama editörüdür. Kodu yazdıktan sonra derleme ve karta yükleme işlemi yoktur. Kod bloklarına tıkladığınızda kod çalışacaktır.
 
-MicroBlocks is a real-time coding editor. There is no process of compiling and uploading the code to the card after they are written. When you click on the code blocks, the code will run. 
-
-To use any of the PicoBricks modules, you first, you need to import Picobricks library into the Microblocks editor. You have to click the Add Library button for this.
+PicoBricks modüllerinden herhangi birini kullanmak için öncelikle PicoBricks kitaplığını Microblocks düzenleyicisine aktarmanız gerekir. Bunun için Add Library butonuna basmanız gerekmektedir.
 
 .. figure:: ../_static/microblocks8.png
     :align: center
@@ -116,26 +127,28 @@ To use any of the PicoBricks modules, you first, you need to import Picobricks l
     :figclass: align-center
 
 
-In the File Open window, click the Kits and Boards button to open the list of supported devices.Click PicoBricks from the drop-down list, and then click the Open button.
+Dosya Aç penceresinde, desteklenen cihazların listesini açmak için Kitler ve Panolar butonuna tıklayın. Açılır listeden PicoBricks'e ve ardından Aç düğmesine tıklayın.
+
 
 .. figure:: ../_static/microblocks9.png
     :align: center
     :width: 720
     :figclass: align-center
     
-If all goes well, the PicoBricks library and code blocks will be displayed in the Code blocks panel.In all the Project examples, whenever you see a block name starting with PicoBricks, it will be located in the PicoBricks Library menu. 
+Her şey yolunda giderse, PicoBricks kitaplığı ve kod blokları, Kod blokları panelinde görüntülenecektir. Tüm Proje örneklerinde, PicoBricks ile başlayan bir blok adı gördüğünüzde, PicoBricks Kitaplığı menüsünde yer alacaktır.
+
 
 .. figure:: ../_static/microblocks10.png
     :align: center
     :width: 520
     :figclass: align-center
 
-PicoBricks Firmware
+PicoBricks Aygıt Yazılımı
 -------------------
 
-If you have previously updated PicoBricks Firmware, you can connect by clicking the USB icon. If you are going to connect MicroBlocks to Picobricks for the first time, you can follow the steps in section 1.1.2.
+PicoBricks Aygıt Yazılımını daha önce güncellediyseniz, USB simgesine tıklayarak bağlanabilirsiniz. MicroBlocks'u Picobricks'e ilk kez bağlayacaksanız bölüm 1.1.2'deki adımları takip edebilirsiniz. 
 
-It is a good idea to check from time to time if there is a new version of the IDE or the Pico Firmware. You can verify the version you are running by selecting MicroBlocks Options (wheel icon) / about in the menu. You should see a display like:
+IDE'nin veya Pico Firmware'in yeni bir sürümü olup olmadığını zaman zaman kontrol etmek iyi bir fikirdir. Menüde MicroBlocks Seçenekleri (dişli simgesi)/hakkında öğesini seçerek çalıştırdığınız sürümü doğrulayabilirsiniz. Aşağıdaki gibi bir ekran görmelisiniz:
 
 .. figure:: ../_static/microblocks11.png
     :align: center
