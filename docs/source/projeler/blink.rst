@@ -77,7 +77,7 @@ Projenin Arduino C Kodu
 Projenin MicroBlocks Kodu
 ------------------------------------
 
-1) ``Kontrol`` kategorisinden ``When started`` bloğunu Scripting alanına sürükleyip bırakın. Bu blok, ``Start`` düğmesine her tıklandığında altındaki kodu çalıştırır.
+1) ``Kontrol`` kategorisinden ``When started`` bloğunu Scripting alanına sürükleyip bırakın. Bu blok, ``Start`` butonuna her tıklandığında altındaki kodu çalıştırır.
 
 .. figure:: ../_static/blink33.png      
     :align: center
@@ -94,7 +94,7 @@ Projenin MicroBlocks Kodu
 
 3) PicoBricks ``set red LED block`` öğesini sürükleyin ve ``forever`` bloğunun içine bırakın. Bloktaki boolean DOĞRU(yeşil) seçimi, LED'in yanmasını sağlar. Alternatif olarak, YANLIŞ(kırmızı) seçimi LED'in sönmesine neden olur.
 
-"Start" düğmesine basarak kırmızı LED'in yanıp yanmadığını test edin.
+"Start" butonuna basarak kırmızı LED'in yanıp yanmadığını test edin.
 
 
 .. figure:: ../_static/blink5.png      
@@ -104,7 +104,7 @@ Projenin MicroBlocks Kodu
     
 4) Şimdi, kırmızı LED'i kapatmak için bloktaki boolean kontrolüne bir kez tıklayarak kırmızıya ayarlayın. Bu ayar YANLIŞ anlamına gelir ve LED'i kapatmalıdır.
 
-Start butınuna tekrar basarak LED'in sönüp sönmediğini test edin.
+Start butonuna tekrar basarak LED'in sönüp sönmediğini test edin.
     
 .. figure:: ../_static/blink6.png      
     :align: center
@@ -125,7 +125,7 @@ Start butınuna tekrar basarak LED'in sönüp sönmediğini test edin.
 
 En alta başka bir ``500 milisaniye bekle`` bloğu ekleyin.
 
-``Start`` düğmesine bastığınızda kırmızı LED'in 500 milisaniye aralıklarla yanıp söndüğünü göreceksiniz. ``500 milisaniye bekle`` bloğundaki 500 sayısı milisaniyeyi temsil eder. Bu sayıyı istediğiniz gibi değiştirebilirsiniz. Bir saniye 1000 milisaniyedir.
+``Start`` butonuna bastığınızda kırmızı LED'in 500 milisaniye aralıklarla yanıp söndüğünü göreceksiniz. ``500 milisaniye bekle`` bloğundaki 500 sayısı milisaniyeyi temsil eder. Bu sayıyı istediğiniz gibi değiştirebilirsiniz. Bir saniye 1000 milisaniyedir.
 
 .. figure:: ../_static/blink8.png      
     :align: center

@@ -1,11 +1,12 @@
-Troubleshooting
+Sorun Giderme
 ===========================
 
-PIR sensor reacts too late
+PIR sensörü geç tepki veriyor
 ------------------------------- 
-If your PIR sensor reacts too late or it does not react without touching it, you should adjust the sensitivity of your PIR sensor. To adjust the sensitivity of your PIR   sensor, the following steps can be taken to troubleshoot it and adjust it’s sensitivity.
-  
-- This adjustment is needed if your PIR is too sensitive or not sensitive enough (clockwise turn makes it more sensitive). However, If there is no detection when the circuit is properly wired, then the sensor is faulty.
+PIR sensörünüz çok geç tepki veriyorsa veya dokunmadan tepki vermiyorsa PIR sensörünüzün hassasiyetini ayarlamalısınız. PIR sensörünüzün hassasiyetini ayarlamak için, aşağıdaki adımları izleyebilirsiniz.
+
+    
+- Bu ayar, PIR'ınız çok hassassa veya yeterince hassas değilse gereklidir (saat yönünde çevirmek daha hassas hale getirir). Ancak, devre doğru şekilde bağlandığında herhangi bir algılama yoksa, sensörünüz arızalıdır.
 
 
 
@@ -15,18 +16,18 @@ If your PIR sensor reacts too late or it does not react without touching it, you
     :figclass: align-center
     
     
-Getting the error " no module named 'picobricks' ".
+``no module named 'picobricks'`` hatasını almak
 ---------------------------------------------------
 
-If you get the error " no module named 'picobricks' " when you run your code, you need to install the picobricks.py library.
+Kodunuzu çalıştırdığınızda ``no module named 'picobricks'`` hatasını alıyorsanız, ``picobricks.py`` kütüphanesini yüklemelisiniz.
 
-- To install the picobricks.py library, you can follow the steps below.
+- ``picobricks.py`` kütüphanesini yüklemek için, aşağıdaki adımları takip edebilirsiniz.
 
-- 1. Open Thonny.
-- 2. Connect your PicoBricks by holding BOOTSEL button.
-- 3. Copy the picobricks.py library from `here <https://github.com/Robotistan/PicoBricks/blob/main/Software/Pre-Installed%20Code/picobricks.py>`_ and paste it into the Thonny coding area.
+- 1. Thonny'yi açın.
+- 2. ``BOOTSEL`` butonuna basarak PicoBricks'i bilgiarınıza bağlayınız.
+- 3. `Buradan <https://github.com/Robotistan/PicoBricks/blob/main/Software/Pre-Installed%20Code/picobricks.py>`_, ``picobricks.py`` kütüphanesini kopyalayın ve Thonny kodlama alanına yapıştırın.
 
-- 4. Finally, save it into your Raspberry Pi Pico board by using ctrl+s key. After this step, you can run your code without getting any error.
+- 4. Son olarak,``ctrl+s`` tuşlarına basarak Raspberry Pi Pico kartının içine kaydet
 
 
 
@@ -36,6 +37,6 @@ If you get the error " no module named 'picobricks' " when you run your code, yo
 
 
 .. note::
-    If this content is not enough to solve your problem, you can send an e-mail to support@robotistan.com.
+    Bu içerik yaşadığın problemi çözmek için yeterli değilse, ``support@robotistan.com`` adresinden bize mail gönderebilirsin.
     
 

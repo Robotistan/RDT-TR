@@ -1,22 +1,23 @@
 ########################
-Development Environments
+Geliştirme Ortamları
 ########################
 
 
-MicroBlocks Block Programming Language
+MicroBlocks Blok Tabanlı Programlama
 ---------------------------------------
  
-MicroBlocks is a free, Scratch-like blocks programming language for learning physical computing with educational microcontroller boards such as the micro:bit, Adafruit Circuit Playground Express, and many others. MicroBlocks is a live environment. Click on a block and it runs immediately, right on the board. Try out commands. See and graph sensor values in real time. No more waiting for code to compile and download.
+MicroBlocks, micro:bit, Adafruit Circuit Playground Express ve diğerleri gibi eğitici mikrodenetleyici kartlarıyla fiziksel hesaplamayı öğrenmek için ücretsiz, Scratch benzeri blok programlama dilidir. MicroBlocks canlı bir ortamdır. Bir bloğa tıklayın ve hemen panoda çalışır. Komutları deneyin. Sensör değerlerini gerçek zamanlı olarak görün ve grafiklendirin. Artık kodun derlenmesi ve indirilmesi için beklemenize gerek yok.
+
 
 .. figure:: ../_static/main.png
     :align: center
     :width: 320
     :figclass: align-center
 
-Thonny (MicroPython) IDE for Beginners
+Başlangıç Seviyesi için Thonny(MicroPython) IDE
 ---------------------------------------
  
-At the heart of Picobricks is the Raspberry Pi Pico. The Thonny Raspberry Pi is a great choice for coding Pico and therefore Picobricks.
+PicoBricks'in kalbi Raspberry Pi Pico'dur. Thonny, Raspberry Pi Pico ve PicoBricks'i kodlamak için harika bir seçimdir. 
 
 .. figure:: ../_static/main1.png
     :align: center
@@ -24,12 +25,13 @@ At the heart of Picobricks is the Raspberry Pi Pico. The Thonny Raspberry Pi is 
     :figclass: align-center
 
 .. tip::
-     If you rename your code file to main.py, your code will run after every boot.
+     Eğer kodunuzu main.py adıyla keydederseniz, her boot yaptığınızda çalışacaktır.
      
 Arduino IDE 
 -------------
 
-Picobricks offers us the opportunity to code with Arduino C. Getting started coding the Raspberry Pi Pico at the heart of Picobricks with the widely used Arduino IDE is pretty easy.
+Picobricks bize Arduino C ile kodlama fırsatı sunuyor. Picobricks'in kalbinde yer alan Raspberry Pi Pico'yu yaygın olarak kullanılan Arduino IDE ile kodlamaya başlamak oldukça kolay.
+
 
 .. figure:: ../_static/main2.png
     :align: center

@@ -10,53 +10,64 @@ Bricks
 
 Pico Board
 -------------------
-Raspberry Pi Pico is a microcontroller that you can use in your embedded system projects, prototyping. Raspberry Pi Pico, powered by the ``RP2040 microcontroller``, has a dual-core ARM Cortex M0+ processor. The low-cost Raspberry Pi Pico stands out with its low power consumption and high performance. The Raspberry Pi Pico, which can be programmed with both C/C++ and MicroPython, appeals to users of all ages.
+Raspberry Pi Pico gömülü sistem projelerinizde, prototiplemede kullanabileceğiniz bir mikrodenetleyicidir. Gücünü ``RP2040 mikrodenetleyiciden`` alan Raspberry Pi Pico, çift çekirdekli ARM Cortex M0+ işlemciye sahiptir. Düşük maliyetli Raspberry Pi Pico, düşük güç tüketimi ve yüksek performansı ile öne çıkıyor. Hem C/C++ hem de MicroPython ile programlanabilen Raspberry Pi Pico, her yaştan kullanıcıya hitap ediyor.
 
-OLED Screen
--------------------
-Miniature OLED display modules are a great way to add a small screen to your Raspberry Pi projects. 
 
-Temperature and Humidity Sensor
+OLED Ekran
 -------------------
-It uses a capacitive humidity sensor and a thermistor to measure the surrounding air and spits out a digital signal on the data pin. It's fairly simple to use but requires careful timing to grab data. 
+Minyatür OLED ekran modülleri, Raspberry Pi projelerinize küçük bir ekran eklemenin harika bir yoludur.
 
-LED Button
+
+Sıcaklık ve Nem Sensörü
 -------------------
-Light emitting diode (LED) modules are self-contained devices that contain a chain of LED emitters. Owing to their size, small LED modules make perfect light fixtures in narrow profiles and applications where space is limited.
+Çevredeki havayı ölçmek için kapasitif bir nem sensörü ve bir termistör kullanır. Veri pinine dijital bir sinyal verir. Kullanımı oldukça basittir ancak verileri almak için dikkatli zamanlama gerektirir.
+
+
+LED-Buton
+-------------------
+Işık yayan diyot (LED) modülleri, bir LED yayıcı zinciri içeren bağımsız cihazlardır. Boyutları sayesinde küçük LED modülleri, alanın sınırlı olduğu uygulamalarda mükemmel aydınlatma armatürleri oluşturur.
+
 
 RGB LED
 -------------------
-RGB LED modules can emit various colors of light. The three primary colors, red, green, and blue, can be mixed and compose all kinds of colors by brightness, so you can make an RGB LED emit colorful light by controlling the circuit.
+RGB LED modülleri çeşitli renklerde ışık yayabilir. Kırmızı, yeşil ve mavi olmak üzere üç ana renk karıştırılabilir ve parlaklığa göre her türlü rengi oluşturabilir, böylece devreyi kontrol ederek bir RGB LED'in renkli ışık yaymasını sağlayabilirsiniz.
 
-Motor Driver
+
+Motor Sürücü
 -------------------
-It is electrical equipment that adjusts the speed of induction motors by changing the frequency. In addition to speed control, it is equipped with superior protection, control and communication features.
+Motorların hızını, frekansı değiştirerek ayarlayan elektrikli ekipmanlardır. Hız kontrolünün yanı sıra üstün koruma, kontrol ve haberleşme özellikleri ile donatılmıştır.
+
 
 
 
 LDR
 -------------------
-LDR sensor module is used to detect the intensity of light. When there is light, the resistance of LDR will become low according to the intensity of light. The greater the intensity of light, the lower the resistance of LDR. The sensor has a potentiometer knob that can be adjusted to change the sensitivity of LDR towards light.
+LDR sensör modülü, ışığın yoğunluğunu algılamak için kullanılır. Işık olduğunda LDR'nin direnci ışığın yoğunluğuna göre düşük olacaktır. Işığın yoğunluğu ne kadar yüksek olursa, LDR'nin direnci o kadar düşük olur. Sensör, LDR'nin ışığa karşı hassasiyetini değiştirmek için ayarlanabilen bir potansiyometre düğmesine sahiptir.
 
-Relay
--------------------
-Relays are switches that open and close circuits electromechanically or electronically. Relays control one electrical circuit by opening and closing contacts in another circuit.
 
-Potentiometer
+Röle
 -------------------
-A potentiometer is defined as a 3 terminal variable resistor in which the resistance is manually varied to control the flow of electric current. 
+Röleler, devreleri elektromekanik veya elektronik olarak açan ve kapatan anahtarlardır. Röleler, başka bir devredeki kontakları açıp kapatarak bir elektrik devresini kontrol eder.
+
+
+Potensiyometre
+-------------------
+Potansiyometre, elektrik akımının akışını kontrol etmek için direncin manuel olarak değiştirildiği 3 uçlu bir değişken direnç olarak tanımlanır.
+
 
 ESP8266
 -------------------
-ESP8266 is a low ``Wi-Fi microcontroller`` with full TCP/IP stack. It has many GPIO (general purpose input output pins) for interfacing with different sensors. ESP8266 due to its good functionality is used a lot in prototyping IOT products.
-Its cross functionality with Arduino makes it easy to program with Arduino IDE.
+ESP8266, tam TCP/IP yığınına sahip düşük bir ``Wi-Fi mikrodenetleyici`` dir. Farklı sensörlerle arayüz oluşturmak için birçok GPIO'ya (genel amaçlı giriş çıkış pinleri) sahiptir. İyi işlevselliği nedeniyle ESP8266, IoT ürünlerinin prototiplenmesinde çok kullanılır.
+Arduino ile çapraz işlevselliği, Arduino IDE ile programlamayı kolaylaştırır.
 
 Buzzer
 -------------------
-A buzzer or beeper is an signaling device, which produces sound. 
+Buzzer, ses üreten bir sinyal cihazıdır.
+
 
 Protoboard
 -------------------
-A protoboard is usually a construction base for prototyping of electronics. 
+Protoboard, genellikle elektronik prototipleme için bir yapı temelidir.
+
 
 .. image:: /../_static/bricks.gif

@@ -1,16 +1,17 @@
-Guide for MicroBlocks
+MicroBlocks Kılavuzu
 ========================================
 
-Summary of Blocks
+Blokların Özeti
 ------------------
 
-For each block, there is a short description entry and a detailed block and component description. You can click on block pictures in the short description table to access the details and sample codes.
+Her blok için kısa bir açıklama girişi ve ayrıntılı bir blok ve komponent açıklaması vardır. Detaylara ve örnek kodlara ulaşmak için kısa açıklama tablosundaki blok resimlerine tıklayabilirsiniz.
 
-Sample codes on how to use the blocks have been provided. To try them out, all you have to do is open a browser session of the MicroBlocks IDE and drag and drop them onto the editor programming area. Then you can just click on them and see the results.
+Blokların nasıl kullanılacağına dair örnek kodlar verilmiştir. Bunları denemek için tek yapmanız gereken MicroBlocks IDE'de bir tarayıcı oturumu açmak ve bunları düzenleyici programlama alanına sürükleyip bırakmaktır. Ardından üzerlerine tıklayıp sonuçları görebilirsiniz.
 
 .. tip::
 
-    To test any of the sample codes below, just drag and drop them onto the MicroBlocks IDE.
+    Aşağıdaki örnek kodlardan herhangi birini test etmek için, bunları MicroBlocks IDE'ye sürükleyip bırakmanız yeterlidir.
+
 
 
 
@@ -18,13 +19,13 @@ Sample codes on how to use the blocks have been provided. To try them out, all y
 +--------------------------------------+-----------------------------------+
 |  |linux-logo3|                       | |macos-logo3|                     |
 +--------------------------------------+-----------------------------------+
-|Sets the RGB LED to the selected color| Returns the temperature in Celsius|
+|RGB LED'in rengini belirler           |Santigrat cinsinden sıcaklığı verir|
 +--------------------------------------+-----------------------------------+
 
 +------------------------------------+----------------------------------+
 ||windows-logo|                      | |linux-logo|                     | 
 +------------------------------------+----------------------------------+
-| Makes a beep sound from the speaker| Returns the button status as 1/0 | 
+|Hoparlörden beep sesi çıkarır       | Butonun durumunu 1/0 olarak verir| 
 +------------------------------------+----------------------------------+
 
 .. |windows-logo| image:: _static/pb_beep.png
@@ -35,7 +36,7 @@ Sample codes on how to use the blocks have been provided. To try them out, all y
 +--------------------------------------+-----------------------------------+
 ||windows-logo1|                       |  |macos-logo1|                    |
 +--------------------------------------+-----------------------------------+
-| Returns the humidity percentage value|  Returns the potentiometer value. |
+|Nemin yüzde değerini verir            | Potansiyometre değerini verir     |
 +--------------------------------------+-----------------------------------+
 
 .. |windows-logo1| image:: _static/pb_humidity.png
@@ -43,11 +44,11 @@ Sample codes on how to use the blocks have been provided. To try them out, all y
 .. |macos-logo1| image:: _static/pb_potentiometer.png
 
 
-+------------------------------------+-------------------------+
-| |windows-logo2|                    | |linux-logo2|           | 
-+------------------------------------+-------------------------+
-| Sets the RGB LED to a random color | Sets the red LED as 1/0 |
-+------------------------------------+-------------------------+
++------------------------------------+--------------------------------+
+| |windows-logo2|                    | |linux-logo2|                  | 
++------------------------------------+--------------------------------+
+|RGB LED için rastgele renk belirler |Kırmızı Led'i 1/0 olarak ayarlar|
++------------------------------------+--------------------------------+
 
 .. |windows-logo2| image:: _static/pb_randomcolor.png
 .. |linux-logo2| image:: _static/pb_redled.png
@@ -64,45 +65,48 @@ Sample codes on how to use the blocks have been provided. To try them out, all y
 .. |linux-logo4| image:: _static/pb_initpins.png
 
 
-+----------------------+-----------------------+
-| |windows-logo3|      | |macos-logo2|         |
-+----------------------+-----------------------+
-|Controls the DC motors| Sets the relay as 1/0 |
-+----------------------+-----------------------+
++-------------------------+---------------------------+
+| |windows-logo3|         | |macos-logo2|             |
++-------------------------+---------------------------+
+|DC motorları kontrol eder| Röleyi 1/0 olarak ayarlar |
++-------------------------+---------------------------+
 
 
 +--------------------------+-----------------------------------------------+
 ||macos-logo|              ||linux-logo1|                                  |
 +--------------------------+-----------------------------------------------+
-|Returns a RGB color value | Returns the light level as a percentage value |
+|RGB renk değerini verir   | Işık seviyesini yüzde değeri olarak verir     |
 +--------------------------+-----------------------------------------------+
 
 +---------------------+
 ||windows-logo4|      |
 +---------------------+
-|Turns off the RGB LED| 
+| RGB LED'i kapatır   | 
 +---------------------+
 
 
-Working with Library Blocks
+Kütüphane Blokları ile Çalışmak
 -----------------------------
 
-The library consists of a set of simple services, that together allow the user to have complete control of the PicoBricks Board and the modules on it.
+Kitaplık, kullanıcının PicoBricks Board ve üzerindeki modüller üzerinde tam denetime sahip olmasına izin veren bir dizi basit hizmetten oluşur.
 
-PicoBricks Library has two distinct types of block shapes:
+PicoBricks Kitaplığı'nda iki farklı blok şekli vardır:
 
-* oval: these are ``reporter blocks`` that return some kind of information back. The user would normally either assign these to a project variable or use it in a suitable input slot of other blocks. The return information type can be any of the supported data types.
 
-* rectangular: these are ``command blocks`` that perform a programmed function and do not return any information.
+* oval: Bir tür bilgiyi geri döndüren ``reporter bloklarıdır``. Kullanıcı normalde bunları bir proje değişkenine atar veya diğer blokların uygun bir giriş yuvasında kullanır. Dönüş bilgisi türü, desteklenen veri türlerinden herhangi biri olabilir. 
 
-Notes on Library Components
+* dikdörtgen: Programlanmış bir işlevi yerine getiren ve herhangi bir bilgi döndürmeyen ``komut bloklarıdır``.
+
+Kütüphane Bileşenleri Üzerine Notlar
 ----------------------------
 
-PicoBricks board contains ten components premounted. The Library, however, only has blocks for seven of them; the OLED screen, Motor Control, and Wireless Comm components are ``not directly covered`` by the library.
+PicoBricks kartı, önceden monte edilmiş on bileşen içerir. Ancak Kütüphane'de yalnızca yedi tanesi için blok vardır; OLED ekranı, Motor Kontrolü ve Kablosuz İletişim bileşenleri kütüphane tarafından ``doğrudan kapsanmaz``.
 
-In this section, we will describe how one can make use of these components, as well as some special information about them.
 
-* OLED display module is programmed by using the MicroBlocks graphics library called OLED Graphics. It is located under ``Libraries+ / Graphics / OLED Graphics.ubl`` in the IDE.
+Bu bölümde, bu bileşenlerden nasıl yararlanılabileceğini ve bunlarla ilgili bazı bilgileri açıklayacağız.
+
+
+* OLED ekran modülü, OLED Graphics adı verilen MicroBlocks grafik kütüphanesi kullanılarak programlanmıştır. IDE'de ``Libraries+ / Graphics / OLED Graphics.ubl`` altında bulunur.
 
 .. figure:: ../_static/pb_oled_module.png
     :align: center
@@ -110,12 +114,14 @@ In this section, we will describe how one can make use of these components, as w
     :figclass: align-center
 
 .. note::
-    For details of the library blocks and operations, refer to  `OLED Library <https://wiki.microblocks.fun/extension_libraries/oled>`_
+    Kitaplık bloklarının ve işlemlerinin ayrıntıları için, `OLED Kütüphane <https://wiki.microblocks.fun/extension_libraries/oled>`_ bölümüne bakın.
 
 .. tip::
-    For a project that describes advanced use of the library and data transfer, please refer to `SNAP to MicroBlocks <https://wiki.microblocks.fun/snap/snap2mb_img_code>`_
+    Kütüphanenin gelişmiş kullanımını ve veri aktarımını açıklayan bir proje için lütfen `SNAP to MicroBlocks <https://wiki.microblocks.fun/snap/snap2mb_img_code>`_ bölümüne bakın.
 
-* MOTOR module is used to control SERVO motors and DC motors.DC Motor support is provided in the library directly. However, there is a caveat: since the motor connections are only via thee-wire cable, it is not possible to programmatically reverse the direction of the DC motors. The only way to change the direction of the DC motors is to change the way the wires are connected.
+
+* Motor modülü, Servo Motorları ve DC Motorları kontrol etmek için kullanılır. DC motor direkt olarak kütüphane tarafından desteklenir. Ancak bir uyarı var: motor bağlantıları yalnızca tel kablo üzerinden yapıldığından, DC motorların yönünü programlı olarak tersine çevirmek mümkün değildir. DC motorların yönünü değiştirmenin tek yolu, kabloların bağlanma şeklini değiştirmektir. 
+
 
 .. figure:: ../_static/pb_motor_module.png
     :align: center
@@ -124,12 +130,13 @@ In this section, we will describe how one can make use of these components, as w
 
 
 .. warning::
-    SERVO motor programming is supported via the MicroBlocks library Servo. It is located under Libraries+ / Servo.ubl in the IDE.    
+    Servo motorların programlanması MicroBlocks servokütüphanesi tarafından desteklenmektedir. Servo motor kütüphanesi, IDE içinde Libraries+ / Servo.ubl'de yer almaktadır.
     
 .. note::
-   For a detailed project that uses the DC and Servo motors, please refer to  `PicoBricks Servo and DC Motor Control <https://wiki.microblocks.fun/picobricks/motorservo>`_
+   DC Motor ve Servo Motor kontrolünün detaylı projesini incelemek için `PicoBricks Servo ve DC Motor Kontrol <https://wiki.microblocks.fun/picobricks/motorservo>`_ bölümüne bakınız.
 
-* WIRELESS COMM Module enables PicoBricks to communicate with other environments using either a WIFI module or a Bluetooth module and is connected to the Serial IO ports of the Pico.
+* Kablosuz Haberleşme Modülü, PicoBricks'in bir WiFi modülü veya bir Bluetooth modülü kullanarak diğer ortamlarla iletişim kurmasını sağlar ve Pico'nun Seri IO bağlantı noktalarına bağlanır.
+
 
 .. figure:: ../_static/pb_wireless_module.png
     :align: center
@@ -138,16 +145,15 @@ In this section, we will describe how one can make use of these components, as w
 
 
 
-Projects with MicroBlocks
+MicroBlocks ile Projeler
 ----------------------------
 
 .. image:: /../_static/pb.gif
 
-| **MicroBlocks is a live programming system that invites exploration. Click a block in the MicroBlocks IDE to see text appear.**
-
+| **MicroBlocks, sizi keşfetmeye davet eden canlı bir programlama sistemidir. Metnin görünmesini görmek için MicroBlocks IDE'de bir bloğa tıklayın.**
 .. image:: /../_static/pb1.gif
 
-| **Beginners and experts alike will find that MicroBlocks is a great tool exploring every aspect of PicoBricks.**
+| **Hem yeni başlayanlar hem de uzmanlar, MicroBlocks'un PicoBricks'in her yönünü keşfeden harika bir araç olduğunu göreceklerdir.** 
 
 .. image:: /../_static/pb2.gif
 

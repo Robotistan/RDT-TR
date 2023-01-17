@@ -11,7 +11,7 @@ PicoBricks eğitim içeriğinde bulabileceğiniz projelere buradan kolayca ulaş
 
 .. toctree::
     :maxdepth: 1
-    :caption: MicroBlocks Test Code:
+    :caption: MicroBlocks Test Kodu:
     
     MicroBlocks Test Code <microblocks test code>
     
@@ -20,7 +20,7 @@ PicoBricks eğitim içeriğinde bulabileceğiniz projelere buradan kolayca ulaş
 
 .. toctree::
     :maxdepth: 1
-    :caption: Activities:
+    :caption: Aktiviteler:
     
      2-Player Score <2-player score>
      Colourful Music <colourful music>

@@ -2,21 +2,22 @@
 Automatic Trash Bin
 ###########
 
-Introduction
+Giriş
 -------------
-In this project, you will make a mobile and automatic stylish trash bin for your room using an ultrasonic sensor and servo motor with PicoBricks.
+Bu projemizde PicoBricks ile ultrasonik sensör ve servo motor kullanarak odanıza mobil ve otomatik şık bir çöp kutusu yapacaksınız.
 
-Project Details and Algorithm
+
+Proje Detayları ve Algoritması
 ------------------------------
 
+Covid-19 pandemisi insanların günlük yaşamdaki rutinlerini bir çok alanda değiştirdi. Temizlik, çalışma, alışveriş, sosyal hayat gibi bir çok alanda insanlar uymak zorunda olduğu bir dizi yeni kurallarla tanıştı. Covid-19 yeni iş alanlarının doğmasına  ve gelişmesine zemin oluşturduğu gibi bazı ürünlerinde ön plana çıkmasını sağlamıştır. El hijyenin çok önemsendiği bir dönemde kimse çöpünü atmak için çöp kovasının kapağına dokunmak istemezdi. Yanına yaklaşıldığında kapağı otomatik açılan dolduğunda ise tek bir hareketle içindeki poşeti büzüp çıkarıp atmaya hazır hale getiren çöp kovaları maliyetinin çok üstünde fiyatlara alıcı buldu. Ayrıca otomatik dezenfektan makineleri elimizi altına tuttuğumuzda belirli bir miktar sıvıyı avucumuzun içine boşaltmakla temassız bir hijyen sağlıyordu. Otomatik dezenfektan sıkıcılarda maliyetinin çok üzerindeki fiyatlara raflarda yer aldı. Bu iki üründe çalışma sistemi açısından benzerlikler yer almaktadır. Otomatik dezenfektan sıkıcılarda doğrudan elektrik motorlu bir pompa sıvıyı dışarı aktardığı gibi bazı modellerde de servo motorun gücü ile pompalanma sistemine dayanan cihazlar bulunmaktaydı. Otomatik çöp kovalarında ise kapağı açan servo motor kullanılmakta el hareketini algılamak için ise kızılötesi ya da ultrasonic sensörler kullanılmaktaydı.
 
-The Covid 19 pandemic has changed people's daily routines in many areas. In many areas such as cleaning, working, shopping and social life, people were introduced to a series of new rules that they had to comply with. Covid-19 has LED to the development of new business areas as well as some products to stand out. At a time when hand hygiene was very important, no one wanted to touch the lid of the trash can to throw away their garbage. When approached, the lids of which open automatically and when it is full, the trash bins, which make bags ready to be thrown away, found buyers at prices far above their cost. In addition, automatic disinfectant machines provided contactless hygiene by pouring a certain amount of liquid into our palms when we held them under our hands. Automatic disinfectant machines took place on the shelves at prices well above their cost. These two products have similarities in terms of working system. In automatic disinfectant machines, a pump with an electric motor directly transfers the liquid, and some models have devices based on the pumping system with the power of the servo motor. In automatic trash bins, a servo motor that opens the lid was used, and infrared or ultrasonic sensors were used to detect hand movement.
-
-HC-SR04 ultrasonic distance sensor and SG90 servo motor will be used in this project. When the user puts his hand in front of the lid of the trash can, the distance sensor will detect the proximity and send it to the Picobricks. According to this information, Picobricks will open the lid of the garbage can by running a servo motor and will lower it again after a short while.
-
+Bu projede HC-SR04 ultrasonic mesafe sensörü ve SG90 servo motor kullanılacaktır. Çöp kutusunun kapağının önüne kullanıcı elini yaklaştırdığında mesafe sensörü yakınlığı algılayacak ve Picobrickse gönderecektir. Picobricks de bu bilgiye göre servo motor çalıştırarak çöp kovasının kapağını açacak kısa bir süre sonra tekrar aşağı indirecektir. 
 
 
-Wiring Diagram
+
+
+Bağlantı Diyagramı
 --------------
 
 .. figure:: ../_static/automatic-trash-bin.png      
@@ -26,9 +27,9 @@ Wiring Diagram
     
 
 
-You can program and run Picobricks modules without any wiring. If you are going to use the modules by separating them from the board, then you should make the module connections with the Grove cables provided.
+Picobricks modüllerini herhangi bir kablo bağlantısı olmadan programlayabilir ve çalıştırabilirsiniz. Modülleri karttan ayırarak kullanacaksanız modül bağlantılarını verilen konektör kablolar ile yapmalısınız.
 
-MicroPython Code of the Project
+Projenin MicroPython Kodu 
 --------------------------------
 .. code-block::
 
@@ -66,9 +67,9 @@ MicroPython Code of the Project
         
 
 .. tip::
-  If you rename your code file to main.py, your code will run after every boot.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptınızda çalışacaktır.
    
-Arduino C Code of the Project
+Projenin Arduino C Kodu
 -------------------------------
 
 
@@ -109,7 +110,7 @@ Arduino C Code of the Project
 
         }
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +----------------------+
 ||automatic-trash-bin1||     
@@ -120,7 +121,7 @@ Coding the Project with MicroBlocks
 
 
 .. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+    MicroBlocks ile kodlama yapmak için yukarıdaki görseli MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
