@@ -7,7 +7,7 @@ PicoBricks Nedir?
 PicoBricks
 -----------
 
-PicoBricks, maker projelerinde kullanılmak üzere tasarlanmış bir elektronik geliştirme ``kart + yazılımı``dır. On ayrılabilir modül dahil, PicoBricks çok çeşitli projeler oluşturmak için kullanılabilir. Ayrıca kendi modüllerinizi eklemek için kullanabileceğiniz bir protokol içerir! 
+PicoBricks, maker projelerinde kullanılmak üzere tasarlanmış bir elektronik geliştirme ``kartı + yazılımıdır``. On ayrılabilir modül dahil, PicoBricks çok çeşitli projeler oluşturmak için kullanılabilir. Ayrıca kendi modüllerinizi eklemek için kullanabileceğiniz bir protokol içerir! 
 
 PicoBricks, elektronik ve kodlama ile ilgilenen herkes içindir. Modüler donanım tasarımı, Scratch benzeri blok kodlama ortamı ve simülatör sayesinde daha önce deneyimi olmayan yeni başlayanlar, başlamayı kolay bulacaktır. Tecrübesi olanlar elektroniği daha derinlemesine inceleyebilir veya Python'da kodlamayı keşfedebilir. Ve en uzman makerlar bile PicoBricks ile fikirleri ne kadar çabuk keşfedebileceklerini ve prototipler oluşturabileceklerini takdir edeceklerdir. Diğer kartların aksine, PicoBricks her seviyedeki makerlar için inanılmaz bir esnekliğe sahiptir! Bricks IDE, farklı senaryolar için örnek kodlara sahiptir. ``MicroBlocks`` veya PicoBricks'in sürükle-bırak, blok kodlama oluşturucusu ile sıfırdan kahramana kodlamayı öğrenin. MicroBlocks, şimdiye kadar oluşturulmuş en kolay kodlama deneyimidir ve maker endüstrisinde yaygın olarak bilinir.
 
