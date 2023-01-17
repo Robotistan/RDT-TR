@@ -88,7 +88,7 @@ RP2040(Pico) öğesini seçin. Kurulumu yalnızca birkaç saniye sürecek ve bit
 
 - Çevrimiçi Editörde Bağlantı ve Güncelleme
 
-Picobricks'i çevrimiçi editöre bağlamak için fazladan birkaç adım gereklidir. Güvenlik nedeniyle tarayıcı, kullanıcıya sormadan kartın USB sürücüsüne erişemez. Önce menüden MicroBlocks düğmesine (dişli simgesi) tıklayın, ardından kartta yazılımı güncelle seçeneğine tıklayın ve açılan listeden RP2040 (Pico) seçeneğine tıklayarak kart tipini seçin.
+Picobricks'i çevrimiçi editöre bağlamak için fazladan birkaç adım gereklidir. Güvenlik nedeniyle tarayıcı, kullanıcıya sormadan kartın USB sürücüsüne erişemez. Önce menüden MicroBlocks butonuna (dişli simgesi) tıklayın, ardından kartta yazılımı güncelle seçeneğine tıklayın ve açılan listeden RP2040 (Pico) seçeneğine tıklayarak kart tipini seçin.
 	
 Kart seçildiğinde, aşağıdaki Yazılım Yükleme penceresi açılacaktır.
 
