@@ -2,19 +2,19 @@
 My Timer
 ###########
 
-Introduction
+Giriş
 -------------
-In this project, you will make your own time measuring device using Picobricks, OLED display, button and potentiometer modules. A Timer…
+Bu projede Picobircks ile OLED ekran, buton ve potansiyometre modüllerini kullanarak kendi zaman ölçme aygıtını yapacaksın.  Bir Timer… 
 
-Project Details and Algorithm
+Projenin Detayları ve Algoritması
 ------------------------------
 
-Measuring time is a simple but important task that we do in our daily lives without realizing it. A surgeon in surgery, a business person trying to catch up with a meeting, an athlete trying to win, a student trying to finish an exam or a chess match… Smart wrist watches, phones and even professional chronometers are used to measure time. Time is a variable that should be used very accurately in electronic systems. For example, a washing machine; how long the drum will rotate clockwise, how much counterclockwise, how many seconds water must flow in order to dissolve the detergent are tasks done by measuring time. To develop projects where time is of the essence, you need to know how to use it.
+Zaman ölçmek günlük hayatımızda farkına varmadan yaptığımız basit ama önemli bir iştir. Ameliyattaki cerrah, toplantısına yetişmeye çalışan bir iş insanı, kazanmaya çalışan sporcu, sınavı bitirmeye çalışan bir öğrenci ya da satranç müsabakası… Zaman ölçmek için akıllı kol saatleri, telefonlar hatta profesyonel kronometreler kullanılmaktadır. Elektronik sistemler içinde zaman oldukça doğru kullanılması gereken bir değişkendir. Örneğin bir  Çamaşır makinesi; tamburun ne kadar süre saat yönünde ne kadar saat yönü tersine döneceği, deterjanı eritip alabilmek için kaç sn su akması gerektiği hep zaman ölçerek yapılan görevlerdir. Zamanın önemli olduğu projeler geliştirmek için onu nasıl kullanacağını bilmelisin.
+
+PicoBricks başladığında ekrana projeyi tanıtan ve yönerge içeren bir ifade yerleştirelim. Kullanıcı potansiyometreyi çevirdikce ``0-60 dakika`` aralığında bir süre belirleyecek. Kullanıcı potansiyometre ile süreye karar verdikten sonra Picobricks’in butonuna bastığında dakika saniye ve salise ekranda geri doğru saymaya başlayacak. Eğer zaman geriye doğru akarken butona basılırsa Timer duracak ve kalan süreyi ekranda gösterecek. Butona basılmadan dakika, saniye ve salise sıfır değerine ulaşırsa ekrana sürenin dolduğunu ifade eden bildirim gösterilecek ve program durdurulacak.
 
 
-When Picobricks starts, let’s put a statement on the screen that introduces the project and contains instructions. As the user turns the potentiometer, it will set a time in the range of ``0-60 minutes``. When the user presses the button of Picobricks after deciding the time with the potentiometer, it will start counting down in minutes and seconds on the screen. If the button is pressed while the time is running backwards, the Timer will stop and show the remaining time on the screen. If the minute, second and second value reaches zero without pressing the button, a notification stating that the time has expired will be displayed on the screen and the program will be stopped.
-
-Wiring Diagram
+Bağlantı Diyagramı
 --------------
 
 .. figure:: ../_static/my-timer.png      
@@ -28,9 +28,9 @@ Wiring Diagram
     :figclass: align-center
 
 
-You can program and run Picobricks modules without any wiring. If you are going to use the modules by separating them from the board, then you should make the module connections with the Grove cables provided.
+Picobricks modüllerini herhangi bir kablo bağlantısı olmadan programlayabilir ve çalıştırabilirsiniz. Modülleri karttan ayırarak kullanacaksanız modül bağlantılarını verilen konektör kablolar ile yapmalısınız.
 
-MicroPython Code of the Project
+Projenin MicroPython Kodu
 --------------------------------
 .. code-block::
 
@@ -123,9 +123,9 @@ MicroPython Code of the Project
 
 
 .. tip::
-  If you rename your code file to main.py, your code will run after every boot.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptığınızda çalışacaktır.
    
-Arduino C Code of the Project
+Projenin Arduino C Kodu
 -------------------------------
 
 
@@ -229,7 +229,7 @@ Arduino C Code of the Project
 
         }
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +-----------+
 ||my-timer2||     
@@ -240,7 +240,7 @@ Coding the Project with MicroBlocks
 
 
 .. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+    MicroBlocks ile kodlama yapmak için yukarıdaki görseli MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
