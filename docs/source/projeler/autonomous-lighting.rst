@@ -1,5 +1,5 @@
 ###########
-Otonom Aydınlatma
+Autonomous Lighting
 ###########
 
 Giriş 
@@ -120,9 +120,8 @@ Projenin MicroBlocks Kodu
 
 
 
-Not
------
-MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks RUN sekmesine sürükleyip bırakmanız yeterlidir.
+.. note::
+    MicroBlocks ile kodlama yapmak için yukarıdaki görseli MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
