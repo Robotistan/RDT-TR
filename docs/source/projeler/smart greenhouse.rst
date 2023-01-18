@@ -2,20 +2,24 @@
 Smart Greenhouse
 ###########
 
-Introduction
+Giriş
 -------------
-In this project, we will prepare a simple greenhouse with ``IOT technology`` and PicoBricks. We will use PicoBricks with the ESP8266 wifi module in this greenhouse. In this way, we will turn the greenhouse into an object that we can track over the Internet.
+Bu projede PicoBricks ile ``IOT teknolojisini`` barındıran basit bir sera hazırlayacağız. PicoBricks’i ESP8266 WiFi modülü ile bu serada kullanacağız. Bu sayede serayı  internet üzerinden takip edebildiğimiz bir nesne haline getireceğiz.
 
-Project Details and Algorithm
+
+Projenin Detayları ve Algoritması
 ------------------------------
 
-The rapid changes in climate due to the effect of global warming cause a decrease in productivity in agricultural activities. In the 1500s, Daniel Barbaro built the first known greenhouse in history. Greenhouses are suitable environments for growing plants that can provide controllable air, water, heat and light conditions. In greenhouses, heaters are used to balance the heat, electric water motors for irrigation, fans are used to regulate humidity and to provide pollination. With the development of technology, the producer can follow the status of the greenhouse with his phone from anywhere and can do the work that needs to be done. The general name of this technology is ``Internet of Things`` (IOT). Special sensors are used to measure temperature, humidity and oxygen content in greenhouses. In addition, special sensors measuring soil moisture are used to decide on irrigation. Electronically controlled drip irrigation systems are used to increase irrigation efficiency. 
+Küresel ısınmanın etkisiyle iklimlerde meydana gelen hızlı değişimler tarım alanındaki faaliyetlerde verimin düşmesine sebep olmaktadır. 1500’lü yıllarda Daniel Barbaro tarihte bilinen ilk serayı yaptı. Seralar kontrol edilebilen hava, su, ısı ve ışık koşulları sunabilen bitki yetiştirmeye elverişli ortamlardır. Seralarda ısıyı dengelemek için ısıtıcılar , sulama yapmak için elektrikli su motorları, nem oranını ayarlamak ve tozlaşmayı sağlayabilmek için fanlar kullanılmaktadır. Teknolojinin de gelişmesiyle üretici seranın durumunu istediği yerden telefonuyla takip edebilmekte ve yapılması gereken işleri yapabilmektedir. Bu teknolojinin genel adı Nesnelerin İnterneti (IOT) dir.
 
-The greenhouse model you will prepare will include a soil moisture sensor, and a DHT11 temperature and humidity sensor hanging from the top. A submersible pump will be placed in the water tank outside the model, and the hose coming out of the end of the pump will go to the ground in the greenhouse. Picoboard will be placed in a suitable place outside the greenhouse model. When Picobricks starts, it starts to broadcast wifi thanks to the ESP8266 wifi module. When we enter the IP address of Esp8266 from the smart phone connected to the same network, we encounter the web page where we will control the Greenhouse. Here we can see the temperature and humidity values. If we wish, we can start the irrigation process by giving the irrigation command.
+Seralarda sıcaklık, nem ve oksijen miktarını ölçmek için özel sensörler kullanılır. Ayrıca sulamaya karar vermek için toprak nemini ölçen özel sensörler kullanılmaktadır. Sulama verimliliğini artırmak için ise elektronik kontrollü damla sulama sistemleri kullanılmaktadır. 
+
+Hazırlayacağın sera maketinin içinde toprak nemi sensörü, üstten asılı olarak DHT11 sıcaklık ve nem sensörü bulunacaktır. Maketin dışındaki su tankının içine dalgıç pompa konulacak, pompanın ucundan çıkan hortum ise seradaki toprağa gidecektir. Picoboard sera maketinin dışında uygun bir yere yerleştirilecektir. Picobricks başladığında ESP 8266 wifi modülü sayesinde WiFi yayını yapmaya başlar. Aynı ağa bağlı akıllı telefondan Esp8266’nın IP adresini girdiğimizde Serayı kontrol edeceğimiz web sayfası ile karşılaşırız. Burada sıcaklık ve nem değerlerini görebiliriz. Dilersek sulama komutu vererek sulama işlemini başlatabiliriz.
 
 
 
-Wiring Diagram
+
+Bağlantı Diyagramı
 --------------
 
 .. figure:: ../_static/smart-greenhouse.png      
@@ -25,9 +29,9 @@ Wiring Diagram
     
 
 
-You can program and run Picobricks modules without any wiring. If you are going to use the modules by separating them from the board, then you should make the module connections with the Grove cables provided.
+Picobricks modüllerini herhangi bir kablo bağlantısı olmadan programlayabilir ve çalıştırabilirsiniz. Modülleri karttan ayırarak kullanacaksanız modül bağlantılarını verilen konektör kablolar ile yapmalısınız.
 
-MicroPython Code of the Project
+Projenin MicroPython Kodu
 --------------------------------
 .. code-block::
 
@@ -171,9 +175,9 @@ MicroPython Code of the Project
 
 
 .. tip::
-  If you rename your code file to main.py, your code will run after every boot.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptığınızda çalışacaktır.
    
-Arduino C Code of the Project
+Projenin Arduino C Kodu
 -------------------------------
 
 
@@ -328,7 +332,7 @@ Arduino C Code of the Project
     }
     
     
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +-------------------+
 ||smart-greenhouse1||     
@@ -339,7 +343,7 @@ Coding the Project with MicroBlocks
 
 
 .. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+    MicroBlocks ile kodlama yapmak için yukarıdaki görseli MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
