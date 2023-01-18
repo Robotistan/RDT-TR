@@ -2,18 +2,18 @@
 Thermometer
 ###########
 
-Introduction
+Giriş
 -------------
-In this project, you will prepare a thermometer with Picobricks that will display the ambient temperature on the OLED screen.
+Bu projede Picobricks ile ortam sıcaklığını OLED ekranda gösterecek bir termometre hazırlayacaksın.
 
-Sensors are the sense organs of electronic systems. We use our skin to feel, our eyes to see, our ears to hear, our tongue to taste, and our nose to smell. There are already many sense organs (sensors) in the picobrix. Also, new ones can be added. You can interact with the environment using humidity, temperature, light and many more sensors. Picobricks can measure the ambient temperature without the need for any other environmental component. Ambient temperature is used in greenhouses, incubators, in environments used for the transport of drugs, briefly in situations where the temperature change must be constantly monitored. If you are going to do an operation on temperature change in your projects, you should know how to measure the ambient temperature.
+Sensörler elektronik sistemlerin duyu organlarıdır. Hissetmek için derimizi, görmek için gözümüzü, duymak için kulağımızı, tatmak için dilimizi ve koklamak için burnumuzu kullanırız. Picobricks’te hali hazırda birçok duyu organı(sensör) vardır. Ayrıca yenileri de eklenebilir. Nem, sıcaklık, ışık ve daha birçok sensörü kullanarak çevreyle etkileşim sağlayabilirsiniz. Picobricks ortam sıcaklığını başka hiçbir çevre bileşenine ihtiyaç duymadan ölçebilir. Ortam sıcaklığı seralarda, kuluçka makinelerinde, ilaçların taşınmasında kullanılan ortamlarda kısaca sıcaklık değişiminin sürekli takip edilmesi gereken durumlarda kullanılmaktadır. Projelerinde sıcaklık değişimi üzerine bir işlem yapacaksan ortam sıcaklığını nasıl ölçeceğini bilmelisin.
 
-Project Details and Algorithm
+Projenin Detayları ve Algoritması
 ------------------------------
 
-Picobricks has a DHT11 module. This module can sense the temperature and humidity in the environment and send data to the microcontroller. In this project, we will write the necessary codes to print the temperature values measured by the DHT11 temperature and humidity sensor on the OLED screen.
+Picobricks’te DHT11 modülü bulunmaktadır. Bu modül ortamdaki sıcaklık ve nem miktarını algılayarak mikrokontrolcüye veriler gönderebilmektedir. Bu bu projede Picobricks üzerindeki DHT11 sıcaklık ve nem sensörünün ölçtüğü sıcaklık değerlerini Picobricks OLED ekrana yazdırmak için gerekli kodları yazacağız.
 
-Wiring Diagram
+Bağlantı Diyagramı
 --------------
 
 .. figure:: ../_static/thermometer.png
@@ -27,9 +27,9 @@ Wiring Diagram
     :figclass: align-center
 
 
-You can program and run Picobricks modules without any wiring. If you are going to use the modules by separating them from the board, then you should make the module connections with the Grove cables provided.
+Picobricks modüllerini herhangi bir kablo bağlantısı olmadan programlayabilir ve çalıştırabilirsiniz. Modülleri karttan ayırarak kullanacaksanız modül bağlantılarını verilen konektör kablolar ile yapmalısınız.
 
-MicroPython Code of the Project
+Projenin MicroPython Kodu
 --------------------------------
 .. code-block::
 
@@ -66,9 +66,9 @@ MicroPython Code of the Project
 
 
 .. tip::
-  If you rename your code file to main.py, your code will run after every boot.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptığınızda çalışacaktır.
    
-Arduino C Code of the Project
+Projenin Arduino C Kodu
 -------------------------------
 
 
@@ -109,7 +109,7 @@ Arduino C Code of the Project
       }
 
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +--------------+
 ||thermometer2||     
@@ -120,7 +120,7 @@ Coding the Project with MicroBlocks
 
 
 .. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+    MicroBlocks ile kodlama yapmak için yukarıdaki görseli MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
