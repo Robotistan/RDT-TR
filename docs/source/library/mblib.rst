@@ -47,7 +47,7 @@ Blokların nasıl kullanılacağına dair örnek kodlar verilmiştir. Bunları d
 +------------------------------------+--------------------------------+
 | |windows-logo2|                    | |linux-logo2|                  | 
 +------------------------------------+--------------------------------+
-|RGB LED için rastgele renk belirler |Kırmızı Led'i 1/0 olarak ayarlar|
+|RGB LED için rastgele renk belirler |Kırmızı LED'i 1/0 olarak ayarlar|
 +------------------------------------+--------------------------------+
 
 .. |windows-logo2| image:: _static/pb_randomcolor.png
