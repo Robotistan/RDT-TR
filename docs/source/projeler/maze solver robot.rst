@@ -2,21 +2,24 @@
 Maze Solver Robot
 ###########
 
-Introduction
+Giriş
 -------------
-In the maze solving robot project, we will use the 2WD robot car kit that comes out of the set.
+Maze solver robot projesinde setin içerisinden çıkan 2WD robot araba kitini kullanacağız.
 
-Project Details and Algorithm
+Projenin Detayları ve Algoritması
 ------------------------------
 
-Coding education is as old as the history of programming languages. Today, different products are used to popularize coding education and make it exciting and fun. The first of these is educational robots. Preparing and coding robots improves children’s ``engineering`` and ``coding`` skills. Robotics competitions are organized by institutions and organizations to popularize coding education and encourage teachers and students. One of these competitions is the Maze Solver Robot competitions. These robots firstly learn the destination by wandering around the maze and return to the starting point. Then, when they start the labyrinth again, they try to reach their destination in the shortest way possible. Robots use distance sensors while learning about the maze. Infrared or ultrasonic sensors are used in these robots. Smart robot vacuums used in homes and workplaces also work with logic close to the algorithms of maze-solver robots. Thanks to their algorithms that constantly check and map the obstacles, they try to do it completely and without crashing. Most of the smart vacuums are equipped with LIDAR and infrared sensors, which make high-precision laser measurements for distance measurement and obstacle detection. In this project, we will make a simple robot with PicoBricks that you can prepare for maze solver robot competitions.
+Kodlama eğitimi programlama dillerinin tarihi kadar eskidir. Günümüzde kodlama eğitimini yaygınlaştırmak, heyecanlı ve eğlenceli hale getirmek için farklı ürünler kullanılmaktadır. Bunların başında eğitsel robotlar gelmektedir. Robotları hazırlamak ve kodlamak çocukların ``mühendislik`` ve ``kodlama`` becerilerini geliştirmektedir. Kodlama eğitimini yaygınlaştırmak, öğretmen ve öğrencileri teşvik etmek için kurum ve kuruluşlar tarafından robotik yarışmalar düzenlenmektedir. Bu yarışmalardan biri de Labirent Çözen Robot yarışmalarıdır. Bu robotlar önce labirentte dolanarak varış noktasını öğrenir ve başlangıç noktasına geri dönerler. Daha sonra labirente tekrar başladıklarında en kısa yoldan en hızlı şekilde varış noktasına ulaşmaya çalışırlar. Robotlar labirenti öğrenirken mesafe sensörlerinden faydalanırlar. Kızılötesi ya da ultrasonik sensörler bu robotlarda görev almaktadır.
+Ev ve işyerlerinde kullanılan akıllı robot süpürgeler de labirent çözen robotların algoritmalarına yakın mantıkla çalışmaktadır. Engelleri sürekli kontrol edip haritalayan algoritmaları sayesinde süpürme işini eksiksiz ve çarpmadan yapmaya çalışırlar. Akıllı süpürgelerin çoğunda mesafe ölçme ve engel algılamak için lazer ile yüksek hassasiyetli ölçüm yapan LİDAR ve kızılötesi sensörler görev almaktadır.
+Bu projede PicoBricks ile labirent çözen robot yarışmalarına hazırlanabileceğiniz basit bir robot yapacağız. 
 
 
-We will use the ``HC-SR04 ultrasonic distance sensor`` so that the robot can detect the distance in front of it and decide its movements on its own. In the maze, the robot will detect the distance in front of the car and move forward if it is empty. If the distance is less than 5 cm, the car will turn right, measure the distance again, if the distance on the right is greater than 5 cm, it will continue on its way, if it is less, it will turn left and move forward. In this way, by turning right and left, we will enable the vehicle to move forward and exit the maze through the empty roads in the maze.
+
+Robotun önündeki mesafeyi algılayarak hareketlerine kendi kendine karar verebilmesi için HC-SR04 ultrasonic mesafe sensörü kullanacağız. Labirent içerisinde robot araba önündeki mesafeyi algılayarak önü boş ise ilerleyecek. Eğer mesafe 5 cm den küçük ise araba sağa dönecek, tekrar mesafeyi ölçecek eğer sağ taraftaki mesafe 5 cm den büyük ise ilerleyerek yoluna devam edecek, küçükse sola dönerek ilerleyecek. Bu şekilde sağa ve sola dönerek labirent içerisinde boş olan yollardan aracın ilerlemesini ve labirentten çıkmasını sağlayacağız.
 
 
 
-Wiring Diagram
+Bağlantı Diyagramı
 --------------
 
 .. figure:: ../_static/maze-solver-robot.png      
@@ -26,9 +29,9 @@ Wiring Diagram
     
 
 
-You can program and run Picobricks modules without any wiring. If you are going to use the modules by separating them from the board, then you should make the module connections with the Grove cables provided.
+Picobricks modüllerini herhangi bir kablo bağlantısı olmadan programlayabilir ve çalıştırabilirsiniz. Modülleri karttan ayırarak kullanacaksanız modül bağlantılarını verilen konektör kablolar ile yapmalısınız.
 
-MicroPython Code of the Project
+Projenin MicroPython Kodu
 --------------------------------
 .. code-block::
 
@@ -93,9 +96,9 @@ MicroPython Code of the Project
 
 
 .. tip::
-  If you rename your code file to main.py, your code will run after every boot.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptığınızda çalışacaktır.
    
-Arduino C Code of the Project
+Projenin Arduino C Kodu
 -------------------------------
 
 
@@ -157,7 +160,7 @@ Arduino C Code of the Project
     }
    
     
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +--------------------+
 ||maze-solver-robot1||     
@@ -168,7 +171,7 @@ Coding the Project with MicroBlocks
 
 
 .. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+    MicroBlocks ile kodlama yapmak için yukarıdaki görseli MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
