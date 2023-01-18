@@ -2,20 +2,20 @@
 Smart House
 ###########
 
-Introduction
+Giriş
 -------------
-This sensor HC-SR501, also known as PIR sensor, detects motion by capturing the changes of infrared waves reflected by the human body.
-When the HC-SR501 PIR sensor detects motion, it gives digital output for 3 seconds. We will use a Picoboard, buzzer and button LED module in the project.
+Bu sensör HC-SR501 , PIR sensörü olarak da ifade edilmekte, insan vücudunun yansıttığı kızılötesi dalgaların değişimlerini yakalayarak hareketi tespit etmektedirler. HC-SR501 PIR sensörü hareket algıladığında 3 saniye boyunca dijital çıkış vermektedir. Proje maketinde Picoboard, buzzer ve buton LED modülünü kullanacağız.
 
-Project Details and Algorithm
+Projenin Detayları ve Algoritması
 ------------------------------
 
+İşyerleri, fabrikalar, evlerimiz hatta hayvan barınakları… Yaşam alanlarımızı istemediğimiz davetsiz misafirlere karşı korumak için kullanılabilecek farklı elektronik sistemler bulunmaktadır. Bu sistemler ev ve iş yeri güvenlik sistemleri olarak üretilmekte ve pazarlanmaktadır. Güvenlik kameralarının ürettiği görüntülerin işlenip yorumlandığı sistemler bulunduğu gibi insan bedenini ve hareketlerinin sensörler ile tespit edip harekete geçen güvenlik sistemleri de mevcuttur. Güvenlik sistemleri bir tür alarmlı saat gibi kurulur ve belirlenen zaman diliminde tanımlanmayan bir hareketlilik algılandığında sesli ve ışıklı uyarılar verir. İşletme veya ev sahibine bildirimde bulunur ayrıca güvenlik birimlerine de otomatik bildirimlerde bulunabilmektedir. Gaz kaçağı yangın vb. durumlarda zehirlenmeleri önlemek için ev ve işyerlerinde gaz sensörleri kullanılır. Olumsuz bir durumda yüksek sesle alarm vererek ortamda yaşayan insanlar uyarılır.
+PicoBricks ile HC-SR501 ve MQ-2 gaz sensörü kullanarak maket bir akıllı ev projesi hazırlayacağız. 
 
-Workplaces, factories, homes and even animal shelters… There are different electronic systems that can be used to protect our living spaces against intruders. These systems are produced and marketed as home and workplace security systems. There are systems where the images produced by security cameras are processed and interpreted, as well as security systems that detect the human body and its movements with sensors and take action. Security systems are set up like a kind of alarm clock and give audible and visual warnings when an unidentified activity is detected in the specified time zone. It notifies the business or the home owner, and it can also make automatic notifications to the security units. Gas leakage, fire etc. in such cases, gas sensors are used in homes and workplaces to prevent poisoning. In a negative situation, people living in the environment are warned by giving a loud alarm. We will prepare a model smart home project with PicoBricks using the HC-SR501 and MQ-2 gas sensor. 
+Tüm parçalar maketin içinde olmalı. Picobricks başladığında alarm sisteminin devreye girmesi için butona basılması gerekmektedir. Butona basıldıktan sonra elin maketi içinden çekilmesi için 3 saniye bekleme koymalıyız. 3 saniyenin sonunda kırmız LED yanar ve alarm sistemi devreye girer. Alarm sistemi devredeyken bir hareket algıladığında kırmızı LED yanıp sönmeye başlar ve buzzer’dan alarm sesi çalınır. Susturmak için Picobricks’in yeniden başlatılması gerekmelidir. MQ-2 sensörü ise sürekli devrededir. Zehirli bir gaz algıladığında ise buzzer ve kırmızı LED ile bunu bildirecektir.
 
-All parts must be in the model. When Picobricks starts, the button must be pressed to activate the alarm system. After pressing the button, we must wait 3 seconds for the hand to be pulled out of the model. At the end of 3 seconds, the red LED lights up and the alarm system is activated. When the alarm system detects a movement, the red LED will start to flash and the buzzer will sound the alarm. To mute it, Picobricks must be restarted.The MQ-2 sensor is always on. When it detects a toxic gas, it will notify you with a buzzer and red LED.
 
-Wiring Diagram
+Bağlantı Diyagramlarını
 --------------
 
 .. figure:: ../_static/smart-house.png      
@@ -26,9 +26,9 @@ Wiring Diagram
 
 
 
-You can program and run Picobricks modules without any wiring. If you are going to use the modules by separating them from the board, then you should make the module connections with the Grove cables provided.
+Picobricks modüllerini herhangi bir kablo bağlantısı olmadan programlayabilir ve çalıştırabilirsiniz. Modülleri karttan ayırarak kullanacaksanız modül bağlantılarını verilen konektör kablolar ile yapmalısınız.
 
-MicroPython Code of the Project
+Projenin MicroPython Kodu
 --------------------------------
 .. code-block::
 
@@ -77,9 +77,9 @@ MicroPython Code of the Project
 
 
 .. tip::
-  If you rename your code file to main.py, your code will run after every boot.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptığınızda çalışacaktır.
    
-Arduino C Code of the Project
+Projenin Arduino C Kodu
 -------------------------------
 
 
@@ -155,7 +155,7 @@ Arduino C Code of the Project
         }
 
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +--------------+
 ||smart-house1||     
@@ -166,7 +166,7 @@ Coding the Project with MicroBlocks
 
 
 .. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+    MicroBlocks ile kodlama yapmak için yukarıdaki görseli MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
