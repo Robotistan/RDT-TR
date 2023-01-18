@@ -2,18 +2,20 @@
 Smart Cooler
 ###########
 
-Introduction
+Giriş
 -------------
-In our project, we will firstly display the temperature values measured by the DHT11 temperature and humidity sensor on Picobricks. Then, we will define a temperature limit and write the necessary codes for the DC motor connected to Picobricks to start rotating when the temperature value from the DHT11 module reaches this limit, and for the DC motor to stop when the temperature value falls below the limit we have determined.
+Projemizde öncelikle Picobricks üzerindeki DHT11 sıcaklık ve nem sensörünün ölçtüğü sıcaklık değerlerini görüntüleyeceğiz. Daha sonra sonra bir sıcaklık sınırı belirleyerek DHT11 modülünden gelen sıcaklık değeri bu sınıra ulaştığında Picobricks’e bağlı DC motorun dönmeye başlaması, sıcaklık değeri belirlediğimiz sınırın altına indiğinde ise DC motorun durması için gerekli kodları yazacağız.
 
-Project Details and Algorithm
+Projenin Detayları ve Algoritması
 ------------------------------
 
-Air conditioners are used to cool in the summer and warm up in the winter. Air conditioners adjust the degree of heating and cooling according to the temperature of the environment. While cooking the food, the ovens try to rise to the temperature value set by the user and maintain that temperature. These two electronic devices use special temperature sensors to control the temperature. In addition, temperature and humidity are measured together in greenhouses. In order to keep these two values in balance at the desired level, it is tried to provide air flow with the fan. In Picobricks, you can measure temperature and humidity separately and interact with the environment with these measurements. In this project, we will prepare a cooling system that automatically adjusts the fan speed according to the temperature with Picobricks. In this way, you will learn the DC motor operating system and motor speed adjustment.
+Yaz aylarında serinlemek için kış aylarında ısınmak için klimalar kullanılır. Klimalar ısıtma ve soğutma derecesini bulunduğu ortamın sıcaklığına göre ayarlamaktadır. Fırınlar yemeği pişirirken kullanıcının ayarladığı sıcaklık değerine çıkmaya ve o sıcaklığı korumaya çalışırlar. Bu iki elektronik cihazda sıcaklığı kontrol etmek için özel sıcaklık sensörleri kullanmaktadır. Ayrıca seralarda sıcaklık ve nem birlikte ölçülür. Bu iki değer  istenen düzeyde dengede kalabilmesi için fan ile hava akımını sağlanmaya çalışılır.
+
+PicoBricks’te sıcaklığı ve nemi ayrı ayrı ölçebilir ve bu ölçümler ile çevreyle etkileşime girebilirsiniz. Bu projede PicoBricks ile sıcaklığa göre fan hızını otomatik ayarlayan bir serinletme sistemi hazırlayacağız. Böylelikle DC motor çalışma sistemini ve motor hız ayarı yapmayı öğreneceksin.
 
 
 
-Wiring Diagram
+Bağlantı Diyagramı
 --------------
 
 .. figure:: ../_static/smart-cooler.png      
@@ -24,9 +26,9 @@ Wiring Diagram
 
 
 
-You can program and run Picobricks modules without any wiring. If you are going to use the modules by separating them from the board, then you should make the module connections with the Grove cables provided.
+Picobricks modüllerini herhangi bir kablo bağlantısı olmadan programlayabilir ve çalıştırabilirsiniz. Modülleri karttan ayırarak kullanacaksanız modül bağlantılarını verilen konektör kablolar ile yapmalısınız.
 
-MicroPython Code of the Project
+Projenin MicroPython Kodu
 --------------------------------
 .. code-block::
 
@@ -57,9 +59,9 @@ MicroPython Code of the Project
 
 
 .. tip::
-  Ifyou rename your code file to main.py, your code will run after every boot.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptığınızda çalışacaktır.
    
-Arduino C Code of the Project
+Projenin Arduino C Kodu
 -------------------------------
 
 
@@ -97,7 +99,7 @@ Arduino C Code of the Project
 
     }
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +---------------+
 ||smart-cooler1||     
@@ -108,7 +110,7 @@ Coding the Project with MicroBlocks
 
 
 .. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+    MicroBlocks ile kodlama yapmak için yukarıdaki görseli MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
