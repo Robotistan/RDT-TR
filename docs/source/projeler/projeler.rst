@@ -26,7 +26,7 @@ PicoBricks'in 11 farklı komponenti ile birçok projeyi hayata geçirebilirsiniz
 
 .. toctree::
     :maxdepth: 1
-    :caption: Activities From Easy To Difficult:
+    :caption: Kolaydan Zora Doğru Projeler:
     
      Blink <blink>
      Action-Reaction <action-reaction>
