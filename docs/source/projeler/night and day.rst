@@ -2,21 +2,21 @@
 Night and Day
 ###########
 
-Introduction
+Giriş
 -------------
-This game will be a game that you will use your attention and reflex. In this project, we will use a 0.96” 128x64 pixel I2C OLED display.
+Bu oyun dikkatini ve refleksini kullanacağın bir oyun olacak.
 
-Project Details and Algorithm
+Projenin Detayları ve Algoritması
 ------------------------------
 
-How about playing the Night and Day game you played at school electronically? The game of night and day is a game in which we put our head on the table when our teacher says night, and raise our heads when our teacher says day. 
+Okulda oynadığınız Gece Gündüz oyununu elektronik olarak oynamaya ne dersin? Öğretmen gece dediğinde kafamızı öne eğip masanın üzerindeki kolumuza yasladığımız, gündüz dediğinde başımızı kaldırdığımız bir oyundur gece-gündüz oyunu. Bu projede 0,96” 128x64 piksel I2C OLED ekranı kullanacağız. OLED ekranlar yapay ışık kaynağı olarak kullanılabildikleri için ekran üzerindeki karakterleri mercek ve ayna kullanarak büyütebilir ve istediğiniz düzleme yansıtabilirsin. Akıllı gözlükler ve otomobil camlarına bilgilendirme, yol ve trafik bilgisi yansıtabilen sistemler OLED ekranlar kullanılarak yapılabilmektedir.
+Işık sensörleri bulundukları ortamın ışık seviyelerini ölçebilen, fotodiyot da denilen sensörlerdir. Işığa maruz kalan sensörün elektrik geçirgenliği değişmektedir. Biz de kodlayarak ışık sensörünü  kontrol edip, ışık miktarının etkilediği elektronik sistemler geliştirebilmekteyiz.
 
-Since OLED screens can be used as an artificial light source, you can enlarge the characters on the screen using lenses and mirrors and reflect them on the desired plane. Systems that can reflect information, road and traffic information on smart glasses and automobile windows can be made using OLED screens. Light sensors are sensors that can measure the light levels of the environment they are in, also called photodiodes. The electrical conductivity of the sensor exposed to light changes. We can control the light sensor by coding and develop electronic systems that affect the amount of light.
-
-First we will ask the player to press the button to start the game. Then we will make the OLED screen of PicoBricks display NIGHT and DAY randomly for 2 seconds each. The player should cover the LDR sensor with his hand within 2 seconds if the word written on the OLED screen is NIGHT, and if the word DAY is written on the OLED screen, the player should raise his hand over the LDR sensor. Each correct response of the player will earn 10 points. In case of wrong response, the game will be over and there will be a written statement on the screen stating the end of the game, a different tone will sound from the buzzer, and the score information will be displayed on the OLED screen. If the player gives a total of 10 correct responses and gets 100 points, the phrase ``Congratulation`` will be displayed on the OLED screen and the buzzer will play notes in different tones.
+Önce oyuncunun oyuna başlaması için butona basmasını isteyeceğiz. Ardından  PicoBricks’in OLED ekranında  NIGHT ve DAY ifadelerini rastgele olarak 2’şer saniye boyunca gösterilmesini sağlayacağız. Oyuncu, eğer OLED ekranda yazan kelime NIGHT ise 2 saniye içinde LDR sensörünün üzerini eliyle kapatmalı, eğer OLED ekranda GÜNDÜZ kelimesi yazıyorsa LDR sensörünün üzerinden elini kaldırmalı. Oyuncunun her doğru tepkisi 10 puan kazanmasını sağlayacak, yanlış tepkide ise oyun bitecek ve ekranda oyunun bitmesini bildiren yazılı ifade yer alacak, buzzerdan farklı tonda bir ses çalacak ve OLED ekranda puan bilgisi yer alacaktır. Eğer oyuncu toplam 10 doğru tepki verip 100 puan elde ederse “Congratulation” yazısı ile oyuna yeniden başlayabilmek için RESET butonuna basılmasını bildiren ifade OLED ekranda gösterilip buzzerdan farklı tonda notalar çalacaktır.
 
 
-Wiring Diagram
+
+Bağlantı Diyagramı
 --------------
 
 .. figure:: ../_static/night-and-day.png      
@@ -27,9 +27,9 @@ Wiring Diagram
 
 
 
-You can program and run Picobricks modules without any wiring. If you are going to use the modules by separating them from the board, then you should make the module connections with the Grove cables provided.
+Picobricks modüllerini herhangi bir kablo bağlantısı olmadan programlayabilir ve çalıştırabilirsiniz. Modülleri karttan ayırarak kullanacaksanız modül bağlantılarını verilen konektör kablolar ile yapmalısınız.
 
-MicroPython Code of the Project
+Projenin MicroPython Kodu
 --------------------------------
 .. code-block::
 
@@ -133,9 +133,9 @@ MicroPython Code of the Project
 
 
 .. tip::
-  If you rename your code file to main.py, your code will run after every boot.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptığınızda çalışacaktır.
    
-Arduino C Code of the Project
+Projenin Arduino C Kodu
 -------------------------------
 
 
@@ -306,7 +306,7 @@ Arduino C Code of the Project
     counter=1;
     }
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +----------------+
 ||night-and-day1||     
@@ -316,9 +316,9 @@ Coding the Project with MicroBlocks
 
 
 
-
 .. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+    MicroBlocks ile kodlama yapmak için yukarıdaki görseli MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
+  
   
 
     
