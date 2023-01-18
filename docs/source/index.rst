@@ -24,7 +24,7 @@ PicoBricks Dokümantasyonuna Hoş Geldiniz
    Bağlantı Yöntemleri <baglanti-yontemleri>
    Geliştirme Ortamları <guides/guides>
    Başlangıç <started/started>
-   Projeler <projeler/projects>
+   Projeler <projeler>
    Eğitim <education/education>
    Bootloader <boatloader/boatloader>
    MicroBlocks Kılavuzu <library/mblib>
