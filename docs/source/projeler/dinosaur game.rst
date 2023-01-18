@@ -2,21 +2,21 @@
 Dinosaur Game
 ###########
 
-Introduction
+Giriş
 -------------
-In this project you will learn how to control Servo motors with PicoBricks. While writing the project codes, we will first fix the LDR sensor on the computer screen and read the sensor data on the white and black background, then write the necessary codes for the servo motor to move according to these data.
+Bu projede PicoBricks ile Servo motorların nasıl kontrol edilebildiğini öğreneceksin. Proje kodlarını yazarken öncelikle LDR sensörü bilgisayar ekranına sabitleyerek beyaz ve siyah zemindeki sensör verilerine okuyacak daha sonra bu verilere göre servo motorun hareket etmesi için gerekli kodları yazacağız.
 
-Project Details and Algorithm
+Projenin Detayları ve Algoritması
 ------------------------------
 
-If the electronic systems to be developed will fulfill their duties by pushing, pulling, turning, lifting, lowering, etc., pneumatic systems or electric motor systems are used as actuators in the project. Picobricks supports two different engine types so that you can produce systems that can activate the codes you write in your projects. DC motor and Servo motors in which the movements of DC motors are regulated electronically. Servo motors are motors that rotate to that angle when the rotation angle value is given. In RC boats, servo motors are used with the same logic to change the direction of the vehicle. In addition, advanced servo motors known as smart continuous servos, which can rotate full-round, are also used in the wheels of the smart vacuum cleaners we use in our homes. 
+Geliştirilecek elektronik sistemler görevini itme, çekme, döndürme, kaldırma, indirme gibi hareketle sonuçlanan işlerle yerine getireceklerse projede aktuatör olarak pnomatik sistemler ya da elektrik motorlu sistemler kullanılır. Picobricks, projelerinde yazdığın kodları harekete geçirebilecek sistemler üretebilmen için iki farklı motor tipini desteklemektedir. DC motor ve DC motorların elektronik olarak hareketlerinin düzenlendiği Servo motorlar. Servo motorlar dönüş açısı değeri verildiğinde o açıya dönen motorlardır. Model uçakların kanatlarında, uçağa yön verebilmek için kanat uçlarındaki yaprakları servo motorlar ile hareket ettirilmektedir. RC teknelerde aracın yönünü değiştirmek için de aynı mantıkla servo motorlar kullanılmaktadır. Ayrıca tam tur dönebilen, akıllı sürekli servo olarak bilinen gelişmiş servo motorlar, evlerimizde kullandığımız akıllı süpürgelerin tekerleklerinde de kullanılmaktadır.
 
-In this project, we will automatically play Google Chrome offline dinasour game to picobricks. In the game, Picobricks will automatically control the dinosaur’s movements by detecting obstacles. We will use the picobricks LDR sensor to detect the obstacles in front of the dinosaur during the game. LDR can send analog signals by measuring the amount of light touching the sensor surface. By fixing the sensor on the computer screen, we can detect if there is an obstacle in front of the dinosaur by taking advantage of the difference in the amount of light between the white and black colors. When an obstacle is detected, we can use a servo motor to automatically press the spacebar on the keyboard. In this way, the dinosaur will easily overcome the obstacles. While writing the project codes, we will firstly fix the LDR sensor on the computer screen and read the sensor data on the white and black background, then write the necessary codes for the servo motor to move according to these data.
-
-
+Bu projede Google Chrome offline dinasour game’i otomatik olarak Picobricks’e oynatacağız. Oyunda Picobricks engelleri algılayarak otomatik olarak dinazorun hareketlerini kontrol edecek. Oyun esnasında dinazorun karşısına çıkan engelleri algılamak için picobricks LDR sensör kullanacağız. LDR sensör yüzeyine temas eden ışık miktarını ölçerek analog sinyaller gönderebilmektedir. Sensörü bilgisayar ekranına sabitleyerek beyaz ve siyah renkler arasındaki ışık miktarı farkından yararlanarak dinazorun önüne engel gelip gelmediğini algılayabiliriz. Engel algılandığında ise servo motor kullanarak klavyedeki boşluk tuşuna otomatik olarak basılmasını sağlayabiliriz. Bu sayede dinazor engelleri kolaylıkla aşacaktır.
 
 
-Wiring Diagram
+
+
+Bağlantı Diyagramı
 --------------
 
 .. figure:: ../_static/dinosaur-game.png      
@@ -27,9 +27,9 @@ Wiring Diagram
 
 
 
-You can program and run Picobricks modules without any wiring. If you are going to use the modules by separating them from the board, then you should make the module connections with the Grove cables provided.
+Picobricks modüllerini herhangi bir kablo bağlantısı olmadan programlayabilir ve çalıştırabilirsiniz. Modülleri karttan ayırarak kullanacaksanız modül bağlantılarını verilen konektör kablolar ile yapmalısınız.
 
-MicroPython Code of the Project
+Projenin MicroPython Kodu
 --------------------------------
 .. code-block::
 
@@ -52,9 +52,9 @@ MicroPython Code of the Project
 
 
 .. tip::
-  Ifyou rename your code file to main.py, your code will run after every boot.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptığınızda çalışacaktır.
    
-Arduino C Code of the Project
+Projenin Arduino C Kodu
 -------------------------------
 
 
@@ -92,7 +92,7 @@ Arduino C Code of the Project
     }
 
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +----------------+
 ||dinosaur-game1||     
@@ -103,7 +103,7 @@ Coding the Project with MicroBlocks
 
 
 .. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+    MicroBlocks ile kodlama yapmak için yukarıdaki görseli MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     

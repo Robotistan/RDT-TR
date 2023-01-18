@@ -129,7 +129,7 @@ Projenin MicroPython Kodu
     #write the specified texts to the determined x and ye coordinates on the OLED screen
 
 .. tip::
-  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptınızda çalışacaktır.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptığınızda çalışacaktır.
    
 Projenin Arduino C Kodu
 -------------------------------

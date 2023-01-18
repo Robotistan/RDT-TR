@@ -113,7 +113,7 @@ MicroPyhton ID Kart Kodu
             #read the card and give the serial number of the card
 
 .. tip::
-  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptınızda çalışacaktır.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptığınızda çalışacaktır.
    
 Projenin Arduino C Kodu
 -------------------------------

@@ -1,5 +1,5 @@
 ###########
-Ses Kontrollü Araba
+Voice Controlled Car
 ###########
 
 Giriş
@@ -65,7 +65,7 @@ Projenin MicroPython Kodu
 
 
 .. tip::
-  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptınızda çalışacaktır.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptığınızda çalışacaktır.
    
 Projenin Arduino C Kodu
 -------------------------------

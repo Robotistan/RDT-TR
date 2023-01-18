@@ -91,7 +91,7 @@ Projenin MicroPthon Kodu
 
 
 .. tip::
-  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptınızda çalışacaktır.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptığınızda çalışacaktır.
    
 Projenin Arduino C Kodu
 -------------------------------
@@ -185,9 +185,8 @@ Projenin MicroBlocks Kodu
 .. |buzz-wire-game1| image:: _static/buzz-wire-game1.png
 
 
-Not
------  
-MicroBlocks ile kodlama yapmak için yukarıdaki görüntüyü MicroBlocks RUN sekmesine sürükleyip bırakmanız yeterlidir.
+.. note::
+    MicroBlocks ile kodlama yapmak için yukarıdaki görseli MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
