@@ -2,19 +2,18 @@
 Magic Lamp
 ###########
 
-Introduction
+Giriş
 -------------
-In this project, we will turn a lamp we use at home on and off with sound. In our project, which we will build using the Picobricks sound level sensor, we will perform the on-off operations by making a clap sound. As in the previous projects, in projects where sensors are used, before we start to write the codes, it will make your progress easier to see what values the sensor sends in the operations we want to do by just operating the sensor, and then writing the codes of the project based on these values. 
+Bu projede PicoBricks kartı üzerindeki LED modülünü sesle açıp kapatacağız. PicoBricks ses seviyesi sensörü kullanarak inşa edeceğimiz projemizde alkış sesi çıkararak açma-kapama işlemlerini gerçekleştireceğiz. Önceki projelerde olduğu gibi sensörlerin kullanıldığı projelerde kodları yazmaya başlamadan önce sadece sensörü çalıştırarak yapmak istediğimiz işlemlerde sensörün hangi değerleri gönderdiğini görmek daha sonra bu değerleri baz alarak projenin kodlarını yazmak ilerlemenizi kolaylaştıracaktır. 
 
-Project Details and Algorithm
+Proje Detayları ve Algoritması
 ------------------------------
 
-Most of us have seen lamps flashing magically or doors opening and closing with the sound of clapping in movies. There are set assistants who close these doors and turn off the lamps in the shootings. What if we did this automatically? There are sensors that convert the sound intensity change that we expect to occur in the environment into an electrical signal. These are called sound sensors. In this project, you will learn how to use the Relay module and sound level sensor with Picobiricks, as well as to control the status while preparing a lighting lamp assembly that can flash with clap.
+Çoğumuz, filmlerde alkış sesiyle sihirliymişçesine yanıp sönen lambaları veya açılıp kapanan kapıları görmüşüzdür. Çekimlerde bu kapıları kapatan , lambaları söndüren set yardımcıları bulunmaktadır. Peki ya biz bunu otomatik olarak gerçekleştirsek nasıl olur? Ortamda meydana gelmesini beklediğimiz ses şiddeti değişikliğini elektrik sinyaline dönüştüren sensörler vardır. Bunlara ses sensörü denmektedir. 
+Bu projede alkış ile yanıp sönebilen bir aydınlatma lambası düzeneği hazırlarken PicoBricks buton modülü ve ses seviyesi sensörünü kullanmayı kontrolünü öğreneceksin.
 
 
-In this project, we will first read the MicroBlocks ``say123 block`` sound intensity sensor values and determine the amount of sound required for the lamp to turn on and off. Then, when this sound level is reached, we will open the relay on the Picobricks and make the lamp connected to the relay light up. Relays can control ``220 volt`` alternating current by turning it on and off. We will again use the sound sensor data to turn the opened lamp back off. Here, we need to use a variable for the lamp to turn on when off and turn off when it is on, with the same amount of sound.
-
-Wiring Diagram
+Bağlantı Diyagramı
 --------------
 
 .. figure:: ../_static/magic-lamp.png      
@@ -28,9 +27,9 @@ Wiring Diagram
     :figclass: align-center
 
 
-You can program and run Picobricks modules without any wiring. If you are going to use the modules by separating them from the board, then you should make the module connections with the Grove cables provided.
+PicoBricks modüllerini herhangi bir kablo bağlantısı olmadan programlayabilir ve çalıştırabilirsiniz. Modülleri karttan ayırarak kullanacaksanız modül bağlantılarını verilen konektör kablolar ile yapmalısınız.
 
-MicroPython Code of the Project
+Projenin MicroPython Kodu
 --------------------------------
 .. code-block::
 
@@ -48,9 +47,9 @@ MicroPython Code of the Project
 
 
 .. tip::
-  Ifyou rename your code file to main.py, your code will run after every boot.
+  Eğer kodunuzun adını main.py olarak kaydederseniz, kodunuz her ``BOOT`` yaptığınızda çalışacaktır.
    
-Arduino C Code of the Project
+Projenin Arduino C Kodu
 -------------------------------
 
 
@@ -81,7 +80,7 @@ Arduino C Code of the Project
     
  
 
-Coding the Project with MicroBlocks
+Projenin MicroBlocks Kodu
 ------------------------------------
 +-------------+
 ||magic-lamp2||     
@@ -92,7 +91,7 @@ Coding the Project with MicroBlocks
 
 
 .. note::
-  To code with MicroBlocks, simply drag and drop the image above to the MicroBlocks Run tab.
+    MicroBlocks ile kodlama yapmak için yukarıdaki görseli MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
   
 
     
