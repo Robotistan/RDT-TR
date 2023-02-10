@@ -25,7 +25,7 @@ PicoBricks Dokümantasyonuna Hoş Geldiniz
    Geliştirme Ortamları <guides/guides>
    Başlangıç <started/started>
    Projeler <projeler/projeler>
-   Eğitim <education/education>
+   Eğitim <egitim/egitim>
    Bootloader <boatloader/boatloader>
    MicroBlocks Kılavuzu <library/mblib>
    Datasheet <datasheet>
