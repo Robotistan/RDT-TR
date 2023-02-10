@@ -1,6 +1,6 @@
 
 #########
-Picobricks Eğitim
+PicoBricks Eğitim
 #########
 
 PicoBricks eğitim içeriğinde bulabileceğiniz projelere buradan kolayca ulaşabilirsiniz. Picobricks ile kodlama öğrenme maceranıza buradaki projelerle hızlı bir şekilde başlayabilir ve kendinizi geliştirebilirsiniz.
