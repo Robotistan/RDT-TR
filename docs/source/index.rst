@@ -17,7 +17,7 @@ PicoBricks Dokümantasyonuna Hoş Geldiniz
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
+   :caption: İçindekiler:
 
    PicoBricks Nedir? <picobricks>
    Bricks <bricks>
