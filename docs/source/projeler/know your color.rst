@@ -281,4 +281,14 @@ Projenin MicroBlocks Kodu
     MicroBlocks ile kodlama yapmak için yukarıdaki görseli MicroBlocks Run sekmesine sürükleyip bırakmanız yeterlidir.
   
 
-    
+   
+Projenin Videosu
+------------------------------------
+
+
+.. figure:: ../_static/maxresdefault.jpg
+    :alt: projenin videosu
+    :target: https://www.youtube.com/watch?v=l0WbZn8R1Cs
+    :class: with-shadow
+    :scale: 50
+ 
